@@ -1,0 +1,2672 @@
+{
+  "common": {
+    "back": "Back",
+    "next": "Continue",
+    "save": "Save",
+    "saved": "Saved",
+    "cancel": "Cancel",
+    "close": "Close",
+    "delete": "Remove",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "loading": "Loading…",
+    "yes": "Yes",
+    "no": "No",
+    "minutes": "{min} min",
+    "language": "Language",
+    "error": "Something went wrong. Please try again.",
+    "notAllowed": "You don't have access to this page.",
+    "signOut": "Sign out",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "optional": "optional",
+    "everyDay": "Every day",
+    "daysCount": "{count, plural, one {# day} other {# days}}"
+  },
+  "status": {
+    "pending": "Waiting for approval",
+    "confirmed": "Confirmed",
+    "completed": "Done",
+    "cancelled": "Cancelled",
+    "declined": "Declined",
+    "no_show": "No-show"
+  },
+  "book": {
+    "title": "Book an appointment",
+    "chooseServices": "What would you like?",
+    "selected": "{count, plural, one {# service} other {# services}} · {duration} min · {price}",
+    "chooseStaff": "Who would you like?",
+    "anyone": "Anyone available",
+    "anyoneHint": "We'll find the first free person",
+    "chooseTime": "Pick a day and time",
+    "otherDay": "Another day",
+    "noSlots": "No free times this day. Try another day.",
+    "morning": "Morning",
+    "afternoon": "Afternoon",
+    "evening": "Evening",
+    "with": "with {name}",
+    "signInTitle": "Sign in to confirm",
+    "signInWhy": "Everyone signs in once so only real people can book. Next time it's one tap.",
+    "signIn": "Sign in",
+    "signedInAs": "Signed in as {email}",
+    "notYou": "Not you?",
+    "yourDetails": "Your details",
+    "name": "Your name",
+    "phone": "Mobile number",
+    "phoneHint": "So {salon} can reach you if something changes",
+    "forSomeoneElse": "I'm booking for someone else",
+    "theirName": "Their name",
+    "notes": "Anything {salon} should know?",
+    "confirm": "Confirm booking",
+    "request": "Send booking request",
+    "requestHint": "{salon} confirms new clients by email.",
+    "doneTitle": "You're booked!",
+    "doneRequestTitle": "Request sent",
+    "doneBody": "We've emailed the details to {email}.",
+    "doneRequestBody": "{salon} will confirm shortly. We'll email you at {email}.",
+    "manage": "View or cancel",
+    "bookAnother": "Book another",
+    "closed": "Online booking isn't open yet.",
+    "errors": {
+      "slot_unavailable": "Sorry, that time was just taken. Please pick another.",
+      "blocked": "Online booking isn't available for your account. Please call {salon}.",
+      "too_many_bookings": "You already have upcoming bookings. Please call {salon} to book more.",
+      "not_set_up": "Online booking isn't open yet.",
+      "bot": "Please complete the check above.",
+      "sign_in": "Please sign in first.",
+      "invalid": "Please check the details and try again.",
+      "outside_hours": "That's outside opening hours. Pick another time."
+    },
+    "otherServices": "Other",
+    "personalPercent": "−{pct}%",
+    "addCalendar": "Add to my calendar",
+    "addGoogle": "Google Calendar",
+    "calendarHint": "Your phone will remind you the day before.",
+    "questions": {
+      "intro": "Two quick questions, both optional. They help us get to know you.",
+      "heard": "How did you hear about us?",
+      "who": "Who recommended you?",
+      "city": "Where do you live?"
+    },
+    "metaTitle": "{salon} · Book online",
+    "metaDescription": "Book your appointment at {salon} online in a minute. {address}",
+    "info": {
+      "hours": "Opening hours",
+      "call": "Call"
+    },
+    "recommended": "Recommended times",
+    "allTimes": "All times",
+    "byService": "By service",
+    "byPro": "By professional",
+    "choosePro": "Who would you like to see?",
+    "withPro": "With",
+    "changePro": "Change",
+    "bookAgain": "Book again",
+    "nextFree": "Next free: {day}, {time}",
+    "summary": {
+      "when": "When",
+      "price": "Price",
+      "where": "Where",
+      "cancel": "Free to cancel or change up to {hours, plural, one {# hour} other {# hours}} before.",
+      "cancelAny": "You can cancel or change it any time before your visit."
+    },
+    "consent": {
+      "title": "Patch test and allergies",
+      "text": "I confirm I've had a patch test for these products in the last 6 months, or will come in for one at least 48 hours before, and I'll tell {salon} about any allergies or reactions."
+    },
+    "paused": "Online booking isn’t available right now. Please contact {salon} directly.",
+    "onlyUntil": "Online booking is open until {date} for now. For later dates, please contact {salon}.",
+    "pausedCall": "Call {phone}"
+  },
+  "signin": {
+    "title": "Sign in",
+    "subtitle": "to book and manage your appointments",
+    "google": "Continue with Google",
+    "microsoft": "Continue with Microsoft",
+    "or": "or",
+    "email": "Email",
+    "sendLink": "Email me a sign-in link",
+    "linkSent": "Check your email",
+    "linkSentBody": "We sent a sign-in link to {email}. Open it on this device.",
+    "done": "You're signed in. You can close this window.",
+    "staffHint": "Team members: sign in with the email you were added with.",
+    "staffSubtitle": "to the team app",
+    "password": "Password",
+    "signInButton": "Sign in",
+    "wrongPassword": "Wrong email or password.",
+    "usePassword": "Sign in with your password instead",
+    "useLink": "Get a sign-in link by email instead",
+    "socialFailed": "That didn't sign you in. Try again, or get a sign-in link by email.",
+    "staffSubtitleName": "to {salon}",
+    "staffHintName": "Team members: sign in with the email {salon} added you with."
+  },
+  "manage": {
+    "title": "Your appointment",
+    "cancel": "Cancel appointment",
+    "cancelConfirm": "Cancel this appointment?",
+    "cancelled": "Your appointment has been cancelled.",
+    "tooLate": "It's less than {hours} hours to your visit, so please call {salon} to cancel.",
+    "bookAgain": "Book again",
+    "notFound": "We couldn't find this appointment.",
+    "call": "Call {salon}",
+    "change": "Change day or time",
+    "changeTitle": "Pick another time",
+    "samePerson": "With {name}",
+    "anyone": "Anyone available",
+    "confirmChange": "Change to this time",
+    "changed": "Done! Your visit has changed. We emailed you the details.",
+    "back": "Back to my visit",
+    "staffOff": "We're sorry, {name} can't see you that day. Pick another time or cancel, no problem."
+  },
+  "admin": {
+    "nav": {
+      "today": "Today",
+      "calendar": "Calendar",
+      "requests": "Requests",
+      "clients": "Clients",
+      "more": "More",
+      "staff": "Staff",
+      "services": "Services",
+      "chairs": "Chairs & rooms",
+      "rules": "Bookings",
+      "salon": "Business details",
+      "insights": "Schedule optimiser",
+      "bookingPage": "Your booking page",
+      "install": "Install on this phone",
+      "installHint": "On iPhone: tap Share, then Add to Home Screen. On Android: tap the menu, then Install app.",
+      "affected": "Visits to sort out",
+      "email": "Email settings",
+      "languageHint": "Just for you; remembered on every device",
+      "equipment": "Equipment",
+      "settings": "Settings",
+      "block": "Block time",
+      "language": "Language",
+      "grow": "Tools",
+      "search": "Search clients",
+      "help": "Help",
+      "newBooking": "New booking",
+      "security": "Sign-in & security",
+      "activityLog": "Activity log",
+      "downloadData": "Download data",
+      "setup": "Getting started",
+      "setupLeft": "{left} left",
+      "myAccount": "My account",
+      "myAccountHint": "Security, activity, data and language",
+      "moveToStatio": "Move to hosted Statio",
+      "moveToStatioHint": "Let us run it for you, with more features"
+    },
+    "today": {
+      "visits": "{count, plural, =0 {No visits today} one {# visit today} other {# visits today}}",
+      "booked": "Booked today",
+      "requests": "{count, plural, one {# booking request waiting} other {# booking requests waiting}}",
+      "upNext": "Up next",
+      "free": "Free today",
+      "freeNone": "No free gaps left today",
+      "newBooking": "New booking",
+      "blockTime": "Block time",
+      "nothing": "Nothing booked yet.",
+      "later": "Earlier today",
+      "expense": "Expense",
+      "fillGaps": "Fill the empty hours",
+      "fillGapsHint": "See which start times would close the gaps"
+    },
+    "calendar": {
+      "title": "Calendar",
+      "everyone": "Everyone",
+      "empty": "No visits",
+      "off": "Not working",
+      "blocked": "Blocked",
+      "closed": "Closed",
+      "allShops": "All shops"
+    },
+    "visit": {
+      "approve": "Approve",
+      "decline": "Decline",
+      "done": "Done",
+      "noShow": "No-show",
+      "cancel": "Cancel visit",
+      "cancelConfirm": "Cancel this visit? The client gets an email.",
+      "move": "Move",
+      "moveTitle": "Move visit",
+      "call": "Call",
+      "email": "Email",
+      "notes": "Note",
+      "for": "For {name}",
+      "client": "Client",
+      "price": "Price",
+      "bookedOnline": "Booked online",
+      "noShows": "{count, plural, one {# no-show} other {# no-shows}}",
+      "newClient": "New client",
+      "whatsappReminder": "WhatsApp reminder",
+      "doneLater": "You can finish this visit (charge it, or mark it Done or No-show) once it has started.",
+      "productsToPickUp": "To pick up at this visit",
+      "productsTaken": "Picked up"
+    },
+    "newBooking": {
+      "title": "New booking",
+      "client": "Client",
+      "search": "Name, phone or email",
+      "newClient": "Add new client",
+      "services": "Services",
+      "staff": "With",
+      "day": "Day",
+      "time": "Time",
+      "notify": "Email the client a confirmation",
+      "save": "Book",
+      "noSlots": "No free time that day",
+      "pickClient": "Pick a client first",
+      "today": "Today",
+      "tomorrow": "Tomorrow"
+    },
+    "block": {
+      "title": "Block time",
+      "who": "Who",
+      "salon": "Whole salon (closed)",
+      "day": "Day",
+      "from": "From",
+      "to": "To",
+      "allDay": "All day",
+      "untilDay": "Until (last day)",
+      "reason": "Reason",
+      "onlineOnly": "Only stop online booking (you can still add visits)",
+      "save": "Block",
+      "upcoming": "Upcoming blocks",
+      "none": "Nothing blocked",
+      "clash": "{count, plural, one {# visit is} other {# visits are}} already booked in this time. They are not cancelled."
+    },
+    "requests": {
+      "title": "Booking requests",
+      "empty": "No requests waiting.",
+      "why": "New clients wait here when you approve new clients first, and so do clients with no-shows.",
+      "firstVisit": "First visit",
+      "approveAll": "Approve all ({count})",
+      "approveAllConfirm": "Approve {count, plural, one {# request} other {all # requests}}? Each client gets the confirmation email.",
+      "welcomeTitle": "Say welcome",
+      "welcomeHint": "New clients with a confirmed visit. Tap to send the welcome from your phone, then press send.",
+      "skip": "Skip",
+      "noPhone": "No phone number: nothing to send."
+    },
+    "clients": {
+      "title": "Clients",
+      "count": "{count, plural, one {# client} other {# clients}}",
+      "add": "Add client",
+      "import": "Import",
+      "export": "Download all (CSV)",
+      "empty": "No clients yet.",
+      "lastVisit": "Last visit {day}",
+      "never": "No visits yet",
+      "visits": "{count, plural, one {# visit} other {# visits}}",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "notes": "Notes",
+      "notesHint": "Allergies, sensitivities, how they like to be treated…",
+      "tags": "Tags",
+      "tagsHint": "Comma separated, e.g. VIP, colour",
+      "statusLabel": "Online booking",
+      "status": {
+        "active": "Can book",
+        "needs_approval": "Approve first",
+        "blocked": "Blocked"
+      },
+      "history": "Visits",
+      "upcoming": "Upcoming",
+      "spent": "Spent",
+      "noShows": "No-shows",
+      "book": "Book",
+      "importTitle": "Import clients",
+      "importHint": "Upload a CSV file with columns name, email, phone and notes (only name is required). Export it from your phone contacts, Excel, Booksy or Fresha.",
+      "importFile": "CSV file",
+      "importDone": "{added} added, {updated} updated, {skipped} skipped",
+      "duplicate": "A client with this email already exists",
+      "state": {
+        "new": "New",
+        "booked": "Booked",
+        "regular": "Regular",
+        "dueSoon": "Due soon",
+        "overdue": "Overdue"
+      },
+      "filters": {
+        "all": "All",
+        "overdue": "Overdue",
+        "dueSoon": "Due soon",
+        "new": "New",
+        "regular": "Regulars",
+        "birthdays": "Birthdays"
+      },
+      "sortBy": "Sort:",
+      "sort": {
+        "due": "Due first",
+        "last": "Last visit",
+        "visits": "Most visits",
+        "since": "Longest",
+        "spent": "Top spenders",
+        "name": "Name"
+      },
+      "col": {
+        "client": "Client",
+        "since": "Client since",
+        "visits": "Visits",
+        "last": "Last visit",
+        "every": "Usually every",
+        "nextDue": "Next visit / due",
+        "status": "Status",
+        "spent": "Spent",
+        "usual": "Usually"
+      },
+      "everyWeeks": "every {weeks, plural, one {week} other {# wks}}",
+      "lastShort": "last {day}",
+      "inviteBack": "Invite back",
+      "noMatch": "No clients match.",
+      "bookedOn": "Booked · {day}",
+      "usually": "Usually",
+      "birthday": "Birthday (optional)",
+      "birthdayDay": "Day",
+      "birthdayMonth": "Month",
+      "birthdayIn": "{days, plural, =0 {Birthday today!} one {Birthday tomorrow} other {Birthday in # days}}",
+      "congratulate": "Send wishes",
+      "keepInMind": "Always keep in mind",
+      "notesLog": "Notes",
+      "notePlaceholder": "e.g. Colour 6.3 + 20 vol, 35 min. Loved the result.",
+      "addNote": "Add note",
+      "deleteNote": "Delete this note?",
+      "birthdayChip": "{days, plural, =0 {today} one {tomorrow} other {in # days}}",
+      "viewOnly": "View only: you can add notes, but not change this client.",
+      "source": {
+        "client": "set for this client",
+        "professional": "chosen at checkout",
+        "learned": "learned from {count} visits",
+        "standard": "service standard"
+      },
+      "nextVisit": "Next visit",
+      "nextBookedOn": "Booked for {day}.",
+      "dueAround": "Due back around {day}.",
+      "noEstimate": "No estimate yet: their services have no standard time.",
+      "comesEvery": "Comes about every {weeks, plural, one {week} other {# weeks}}",
+      "howWorked": "How is this worked out?",
+      "howSteps": {
+        "client": "Set by hand for this client (below), if any: it always wins.",
+        "professional": "Otherwise what the professional chose at the last checkout (\"come back in…\"), if they changed the standard.",
+        "learned": "Otherwise their own rhythm: the usual gap between their visits of the same kind, once there are {count} or more.",
+        "standard": "Otherwise the service's standard time."
+      },
+      "howDue": "Due soon = from about 80% of their usual time. Overdue = past it with nothing booked.",
+      "setRhythm": "This client comes every … weeks (optional)",
+      "auto": "Automatic",
+      "dueIn": "{pct}% · {days, plural, =0 {due today} one {in # day} other {in # days}}",
+      "overdueBy": "Overdue by {days, plural, one {# day} other {# days}}",
+      "erased": "The client's personal data was erased.",
+      "cancelledCount": "{count, plural, one {# cancelled} other {# cancelled}}",
+      "prefers": "usually {day} {part}",
+      "parts": {
+        "morning": "mornings",
+        "afternoon": "afternoons",
+        "evening": "evenings"
+      }
+    },
+    "staff": {
+      "title": "Staff",
+      "add": "Add staff",
+      "name": "Name",
+      "email": "Email",
+      "emailHint": "Their personal access link goes to this email.",
+      "role": "Access",
+      "roles": {
+        "owner": "Owner",
+        "admin": "Manager (everything)",
+        "staff": "Staff (calendar and clients)"
+      },
+      "color": "Calendar colour",
+      "bookable": "Clients can book them online",
+      "pay": "Pay",
+      "payModels": {
+        "owner": "Owner",
+        "salary": "Fixed salary",
+        "commission": "% per service",
+        "salary_commission": "Salary + %",
+        "chair_rent": "Rents a chair"
+      },
+      "salary": "Monthly salary",
+      "commission": "Commission %",
+      "chairRent": "Monthly chair rent",
+      "chair": "Usual chair",
+      "services": "Services they do",
+      "hours": "Working hours",
+      "off": "Off",
+      "split": "Split shift",
+      "remove": "Remove from team",
+      "removeConfirm": "Remove {name}? They lose access at once, on every device. Their past visits and notes stay in the history.",
+      "timeOff": "Time off",
+      "none": "No one yet. Add yourself first.",
+      "addPhoto": "Add photo",
+      "changePhoto": "Change photo",
+      "removePhoto": "Remove photo",
+      "titleHint": "Shown under the name when clients pick who they want.",
+      "titlePlaceholder": "Colour and highlights",
+      "speciality": "Speciality (optional)",
+      "ownsClients": "Owns their clients",
+      "ownsClientsHint": "Clients whose first visit is with them are theirs: other staff don't see them, and when they're off they sort out their own visits. You always see every client.",
+      "tools": "{count, plural, =0 {No tools or equipment yet} one {# tool or piece of equipment} other {# tools and equipment}}",
+      "addTool": "Add",
+      "clientsRule": "Clients belong to the business. Someone with \"Owns their clients\" (usually a chair renter) keeps the clients whose first visit was with them; you always see everyone.",
+      "firstName": "First name",
+      "lastName": "Last name (optional)",
+      "jobTitle": "Job title (optional)",
+      "jobTitlePlaceholder": "Senior stylist",
+      "mobile": "Mobile (optional)",
+      "mobileHint": "To send the invite by WhatsApp.",
+      "accessTitle": "Access",
+      "accessHint": "What they can see and do in the app.",
+      "access": {
+        "levels": {
+          "owner": "Owner",
+          "manager": "Manager",
+          "stylist": "Stylist",
+          "frontdesk": "Front desk",
+          "renter": "Chair renter"
+        },
+        "hints": {
+          "owner": "Everything, always. Can't be limited or removed.",
+          "manager": "Runs the business day to day: all bookings, clients, services, staff and settings. Can't download the client list unless you allow it.",
+          "stylist": "Their own calendar and visits. Sees clients but can't change them (only add notes), except clients they own.",
+          "frontdesk": "Everyone's bookings; adds and updates clients. Can't delete, download the client list, see takings or change settings.",
+          "renter": "Like a stylist, but their own clients are fully theirs."
+        },
+        "customise": "Customise (exceptions for this person)",
+        "custom": "Has exceptions",
+        "areas": {
+          "calendar": "Calendar & bookings",
+          "clients": "Clients",
+          "clientData": "Download / import client list",
+          "services": "Services & prices",
+          "team": "Staff",
+          "money": "Money",
+          "settings": "Business settings",
+          "equipment": "Equipment"
+        },
+        "areaHints": {
+          "calendar": "Their own always; here: everyone's",
+          "clients": "View, add and change, delete",
+          "clientData": "The whole list as a file",
+          "services": "",
+          "team": "People, hours, access",
+          "money": "Takings, client spend, empty-hours stats",
+          "settings": "Business, hours, chairs, rules, email",
+          "equipment": "Their own always; here: everyone's"
+        },
+        "levelNames": {
+          "none": "No access",
+          "view": "View",
+          "edit": "Add & change",
+          "full": "Everything (incl. delete)"
+        }
+      },
+      "invite": {
+        "title": "Access to the app",
+        "send": "Send invite",
+        "resend": "Resend invite",
+        "status": {
+          "active": "Active",
+          "invited": "Invited",
+          "none": "Not invited yet",
+          "paused": "Paused"
+        },
+        "activeHint": "They're signed in with their own email. To sign them out everywhere (lost phone, shared device), reset their sign-in.",
+        "invitedHint": "Invite sent; their link works until {day}. They haven't signed in yet.",
+        "noneHint": "Send them their personal link so they can sign in from their phone. They choose how to sign in; you never see a password.",
+        "needEmail": "Add their email first.",
+        "create": "Get invite link",
+        "email": "Send by email",
+        "created": "New invite link ready (any older link stopped working).",
+        "emailed": "Invite sent by email.",
+        "copy": "Copy",
+        "message": "Hi {name}! Here's your personal link to join our team app: {link}",
+        "linkRules": "Personal link: it works once, for 7 days, only with their email.",
+        "reset": "Reset sign-in",
+        "resetConfirm": "Sign {name} out on every device and send a new invite link?",
+        "resetDone": "Signed out everywhere. Here's their new invite link.",
+        "pausedHint": "Their access is paused: they can't sign in to the team app. They stay on the team, in the calendar and in the history.",
+        "pause": "Pause access",
+        "pauseConfirm": "Pause {name}'s access? They're signed out at once on every device and can't sign in until you turn it back on.",
+        "paused": "Access paused. They're signed out everywhere.",
+        "resume": "Turn access back on",
+        "resumed": "Access is back on. They sign in again with their email."
+      },
+      "noTitle": "No job title or speciality yet",
+      "noContact": "No phone or email yet",
+      "bookingLink": {
+        "title": "Their booking link",
+        "hint": "Opens your booking page with them already chosen, showing only what they do. Great for their Instagram bio or WhatsApp.",
+        "notOnline": "No booking link yet: they need \"Clients can book them online\" on and working hours before clients can book them."
+      },
+      "theirTimeHint": "Tick what they do. If they take more or less time than usual for a service, enter their minutes; leave it empty for the standard time.",
+      "theirTime": "Their minutes for {service}",
+      "chairRentAmount": "Chair rent",
+      "emailChangeHint": "Their sign-in email. If you change it, they're signed out and sign in again with the new one.",
+      "ownerEmailHint": "This is the owner's sign-in. Change it in More › Sign-in & security."
+    },
+    "services": {
+      "title": "Services",
+      "add": "Add service",
+      "category": "Category",
+      "duration": "Duration (min)",
+      "bufferAfter": "Clean-up after (min)",
+      "price": "Price",
+      "station": "Needs a shared station",
+      "noStation": "No",
+      "active": "Shown online",
+      "hidden": "Hidden",
+      "none": "No services yet.",
+      "rebookDays": "Standard time until the next visit (days)",
+      "rebookHint": "Your usual estimate for this service, e.g. 35 for a haircut. A starting guess: the professional can change it at checkout, and each client's own rhythm takes over after a few visits. Empty = no estimate.",
+      "noCategory": "No category",
+      "manageCategories": "Categories",
+      "name": "Name",
+      "starterTitle": "Add starter services",
+      "starterHint": "Typical services for your kind of business, hidden until you set a price and switch them on.",
+      "starterAdded": "{count, plural, one {# starter service added} other {# starter services added}}: set prices and switch on the ones you offer.",
+      "needsPrice": "set a price",
+      "colourCard": "Keep a colour card",
+      "colourCardHint": "On each visit, note the formula used (brand, shade, developer, time) so anyone can repeat it next time.",
+      "needsConsent": "Ask for a patch test / allergy check",
+      "needsConsentHint": "Clients confirm it when booking online (colour, lash lift, perms…). For visits you book, record it on the visit.",
+      "description": "Description (shown on your website)",
+      "descriptionHint": "What it is and what to expect, in a sentence or two",
+      "moreTitle": "More options",
+      "moreHint": "Clean-up time, next visit, shared station, colour card, patch test",
+      "manageStations": "Chairs & rooms"
+    },
+    "chairs": {
+      "title": "Chairs & rooms",
+      "hint": "Shared stations (basins, pedicure chairs) are reserved per service so two people can't book the same one.",
+      "add": "Add chair or station",
+      "name": "Name",
+      "kind": "Type",
+      "kinds": {
+        "styling": "Styling chair",
+        "basin": "Basin",
+        "nail": "Nail desk",
+        "pedicure": "Pedicure chair",
+        "room": "Room"
+      },
+      "shared": "Shared station",
+      "renter": "Rented to",
+      "nobody": "Nobody",
+      "rent": "Monthly rent",
+      "none": "No chairs yet.",
+      "kindHint": "Pick one or type your own, e.g. Massage bed or Laser room. Services that need that type can then use it.",
+      "sectionName": "Name of this section",
+      "sectionNameHint": "Call it what your business calls it: Stations, Rooms, Cabins… Leave empty for the default.",
+      "sectionNameLabel": "Section name"
+    },
+    "rules": {
+      "title": "Bookings",
+      "approvals": "New clients",
+      "noShowThreshold": "Approve first after this many no-shows",
+      "maxFuture": "Upcoming bookings a new client can hold",
+      "day": "Your day",
+      "compactDay": "Compact day",
+      "compactDayHint": "Only offer times next to existing bookings, so your free time stays in one block.",
+      "dailyLimit": "Max online visits per person per day",
+      "noLimit": "No limit",
+      "lead": "Minimum notice",
+      "leadOptions": "{hours, plural, =0 {None} one {# hour} other {# hours}}",
+      "horizon": "Clients can book up to",
+      "step": "Start times every",
+      "cancellation": "Clients can cancel online up to",
+      "acceptAll": "Accept every booking automatically",
+      "acceptAllHint": "Bookings are confirmed straight away, new clients included.",
+      "approveNew": "I approve new clients first",
+      "approveNewHint": "A new client's first booking waits in Requests until you approve it with one tap.",
+      "safetyNet": "Either way, you always approve clients you've marked \"needs approval\" and clients with {count, plural, one {# no-show} other {# or more no-shows}}.",
+      "welcome": "Welcome message",
+      "welcomeHint": "Sent from your phone (WhatsApp or SMS) to new clients, from the Requests screen. Write it as you'd say it: we add their name, the visit details and your business name.",
+      "welcomeText": "Welcome",
+      "weeksAhead": "{weeks, plural, one {# week ahead} other {# weeks ahead}}",
+      "welcomePreview": "See the message",
+      "restore": "Restore our text",
+      "cancellationHint": "After that, they call you.",
+      "hoursBefore": "{hours, plural, =0 {Until the visit starts} one {# hour before} other {# hours before}}",
+      "moreTitle": "More options",
+      "moreHint": "Recommended times, notice, limits, welcome message, questions, emails",
+      "newClients": "Limits for new clients",
+      "emailTitle": "Client emails",
+      "emailHint": "Sender name and a test email"
+    },
+    "salon": {
+      "title": "Business details",
+      "logo": "Logo",
+      "logoHint": "PNG, JPG or SVG. It's shown big on your booking page and as your app icon.",
+      "upload": "Upload logo",
+      "removeLogo": "Remove",
+      "appColours": {
+        "title": "App colours",
+        "neutral": "Black & white",
+        "neutralHint": "Clean and simple, for your app and booking page.",
+        "website": "My website colours",
+        "websiteHint": "Your app and booking page use the colours of your website.",
+        "websiteKeeps": "Your website always keeps its own look. You can change it in Your website."
+      },
+      "name": "Business name",
+      "phone": "Phone",
+      "email": "Email for booking alerts",
+      "address": "Address",
+      "timezone": "Time zone",
+      "currency": "Currency",
+      "previewChip": "−20%",
+      "previewService": "Cut and style · 45 min",
+      "previewButton": "Book",
+      "google": {
+        "title": "Bookings from Google",
+        "hint": "Free, 5 minutes: add this link to your Google Business Profile and a \"Book\" button appears on Google Maps and Search.",
+        "step1": "Open your Business Profile (or search your business name on Google while signed in).",
+        "step2": "Tap \"Edit profile\" › \"Bookings\" (or \"Booking links\").",
+        "step3": "Paste the link above and save.",
+        "open": "Open Business Profile",
+        "more": "Use it on Instagram too (Edit profile › Action buttons › Book), in WhatsApp Business (Profile › Links) and in your bio."
+      },
+      "copy": "Copy",
+      "copied": "Copied",
+      "online": {
+        "title": "Website and profiles",
+        "hint": "Shown on your booking page, and used by Google, Bing and Apple to describe your business.",
+        "types": "What kind of business",
+        "about": "About your business",
+        "aboutHint": "One or two sentences: what you do and where. Shown on your booking page and in search results.",
+        "aboutPlaceholder": "Hair and nail salon in the centre of Madrid. Colour specialists, walk-ins welcome.",
+        "website": "Your website",
+        "websiteHint": "If you have one. No website? Your booking page works as one.",
+        "pageName": "Page name or link",
+        "others": "Other profiles",
+        "othersHint": "Booksy, Fresha, Treatwell, YouTube… a name and the link.",
+        "otherLabel": "Name",
+        "otherUrl": "Link",
+        "foundLink": "Search engines",
+        "foundLinkHint": "Checklist: Google, Maps, Bing, Apple and your website",
+        "reviewWhere": "Not set yet"
+      },
+      "country": "Country",
+      "countryHint": "Used for phone numbers without a country code, and for public holidays.",
+      "bookingLink": "Your booking link",
+      "bookingLinkHint": "Put it on Instagram, Google and WhatsApp: clients book in a few taps.",
+      "share": "Share"
+    },
+    "setup": {
+      "title": "Welcome! Let's set up your business",
+      "intro": "Three quick things. You can change everything later.",
+      "name": "Business name",
+      "language": "Language for clients",
+      "timezone": "Time zone",
+      "currency": "Currency",
+      "ownerName": "Your name",
+      "start": "Create my account",
+      "onlyOwner": "Only the owner can set up the business. Sign in with {email}.",
+      "nextSteps": "Next: add your services, your team and their hours.",
+      "ownerLanguage": "Your language (for this app)",
+      "types": "What kind of business are you?",
+      "typesHint": "Tick all that apply. We'll add typical services, groups and chairs for you to adjust: change names, set prices, remove or add anything.",
+      "country": "Country",
+      "countryHint": "Sets the country code for phone numbers.",
+      "updates": "Email me about updates and security fixes",
+      "updatesHint": "A few emails a year from the Statio team. You can unsubscribe at any time. Without this, we only count that a copy is running (anonymously)."
+    },
+    "checkout": {
+      "title": "Finish the visit",
+      "charge": "Paid {amount} · finish visit",
+      "update": "Save payment",
+      "paid": "Paid {amount} · {method}",
+      "price": "Amount paid",
+      "method": "Paid by",
+      "methods": {
+        "cash": "Cash",
+        "card": "Card",
+        "other": "Other"
+      },
+      "next": "Next visit in",
+      "noNext": "Not set",
+      "weeks": "{n} wk",
+      "bookNext": "Book next visit now",
+      "nextHint": "If they don't book, you'll see them under Due to come back, with a WhatsApp message in one tap.",
+      "productsHint": "Untick what they didn't take: it comes off the bill.",
+      "friendCard": "Came with a friend's card: −{pct}%",
+      "whoInvited": "Who invited them? (optional)",
+      "whoInvitedHint": "They get their reward too, as with the invite link.",
+      "searchClient": "Search by name or phone",
+      "friendLine": "Friend's card −{pct}%"
+    },
+    "walkin": {
+      "button": "Walk-in",
+      "toggle": "Any time (walk-in or squeeze in)",
+      "hint": "Books exactly this time, even outside hours or over another visit.",
+      "time": "Start time",
+      "needsPerson": "Pick who will do it",
+      "guestRecord": "Guest",
+      "guestButton": "Guest, no client record",
+      "guestLabel": "Guest",
+      "guestHint": "The visit is recorded, but they aren't added to your clients.",
+      "guestName": "First name (optional, for this visit only)",
+      "useGuest": "Continue as guest",
+      "back": "Back",
+      "saveAsClient": "Save as client",
+      "saveHint": "They'd like to come back? Add them to your clients; this visit moves to their record.",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email (optional)"
+    },
+    "cash": {
+      "title": "Takings today",
+      "none": "Nothing charged yet today"
+    },
+    "absence": {
+      "cantCome": "I can't come in",
+      "title": "Can't come in",
+      "who": "Who?",
+      "when": "When?",
+      "today": "Today",
+      "tomorrow": "Tomorrow",
+      "days": "Several days",
+      "from": "From",
+      "to": "To",
+      "reason": "Reason (optional)",
+      "reasonPlaceholder": "Ill, doctor's appointment…",
+      "send": "Tell the salon",
+      "sendOwner": "Mark as off",
+      "doneNone": "Done. That time is blocked and there were no visits.",
+      "doneOwner": "Done. {count, plural, one {There is # visit} other {There are # visits}} to sort out.",
+      "doneStaff": "Done, the salon knows. {count, plural, one {You have # visit} other {You have # visits}} on those days; the salon will tell the clients.",
+      "doneRenter": "Done, the salon knows. {count, plural, one {You have # visit} other {You have # visits}} on those days: message your clients from the list.",
+      "resolve": "Sort them out now",
+      "affected": "Visits to sort out",
+      "affectedHint": "Visits for someone who is off (or when the business is closed). Give them to someone else, message the client or cancel. They leave this list once sorted.",
+      "affectedCard": "{count, plural, one {# visit to sort out} other {# visits to sort out}}",
+      "affectedCardHint": "Give to someone else, message or cancel",
+      "none": "Nothing to sort out.",
+      "off": "{name} is off",
+      "moveTo": "Give to",
+      "pick": "Choose a person",
+      "move": "Give",
+      "emailClient": "Email the client",
+      "message": "Message the client",
+      "cancel": "Cancel visit",
+      "cancelConfirm": "Cancel the visit and send the client an apology email?",
+      "messaged": "Client messaged {day}",
+      "salonWillHandle": "The salon will contact this client.",
+      "renterHint": "Your client: move the visit to a colleague, cancel it or message them yourself. The salon sees this list too.",
+      "someoneOff": "Someone is off"
+    },
+    "mail": {
+      "title": "Client emails",
+      "hint": "How emails reach clients (confirmations, sign-in links). Use your own mailbox or a sending service, and switch any time.",
+      "providers": {
+        "env": "Set on the server ({env})",
+        "none": "No email",
+        "resend": "Resend",
+        "smtp": "Your mailbox or another provider"
+      },
+      "providersHint": {
+        "env": "What was set at install. Pick another option to change it here.",
+        "none": "Not recommended: clients can't confirm their email, so they can't book online, and sign-in links aren't sent. Only for trying it out.",
+        "resend": "A sending service; needs a key from resend.com.",
+        "smtp": "Your domain's mailbox (Google Workspace, Microsoft 365, your web host) or any provider: Brevo, Postmark, Amazon SES…"
+      },
+      "presets": {
+        "google": "Google / Gmail",
+        "microsoft": "Microsoft 365",
+        "brevo": "Brevo",
+        "other": "Other"
+      },
+      "presetHint": {
+        "google": "Use an \"app password\" from your Google account (Security › 2-Step Verification › App passwords), not your normal password.",
+        "microsoft": "Your admin must have \"Authenticated SMTP\" switched on for this mailbox.",
+        "brevo": "Brevo SMTP login and key (Settings › SMTP & API).",
+        "other": "The SMTP details from your web host or provider (usually port 587 or 465)."
+      },
+      "host": "SMTP server",
+      "port": "Port",
+      "user": "Username",
+      "password": "Password (empty = keep the saved one)",
+      "kept": "•••••• saved",
+      "resendKey": "Resend API key",
+      "resendKeyHint": "At resend.com › API Keys. Verify your domain there to stay out of spam.",
+      "from": "Send from",
+      "fromHint": "An address on your domain, e.g. bookings@yourbusiness.com. Clients see your business name, and replies go to your business email.",
+      "save": "Save",
+      "test": "Send me a test email",
+      "testHint": "Uses what is saved.",
+      "testOk": "Sent to {to}. Check your inbox (and spam).",
+      "testOff": "Email is switched off.",
+      "testFail": "Couldn't send: {error}"
+    },
+    "categories": {
+      "title": "Categories",
+      "hint": "Groups shown as tabs on the booking page, in this order. Use whatever suits your business: Women / Men / Kids, Hair / Nails, Treatments… With only one category (or none) there are no tabs.",
+      "add": "Add category",
+      "up": "Move up",
+      "down": "Move down",
+      "delete": "Delete",
+      "services": "{count, plural, =0 {No services} one {# service} other {# services}}",
+      "name": "Name",
+      "placeholder": "Treatments",
+      "edit": "Edit",
+      "deleteConfirm": "Delete this category? {count, plural, =0 {} one {Its service stays, without a category.} other {Its # services stay, without a category.}}"
+    },
+    "equipment": {
+      "title": "Equipment",
+      "mine": "My equipment",
+      "hint": "Who owns what: what belongs to the business and what belongs to each person. Staff keep their own list from their phone.",
+      "hintStaff": "Your own tools and equipment, so it's clear what's yours. The salon can see this list.",
+      "add": "Add",
+      "salon": "The salon",
+      "none": "Nothing yet.",
+      "kinds": {
+        "tool": "Tool",
+        "equipment": "Equipment"
+      },
+      "kindHint": "Tools: scissors, dryers, clippers… Equipment: bigger things like a pedicure chair or a steamer.",
+      "name": "What is it?",
+      "namePlaceholderTool": "Dyson dryer",
+      "namePlaceholderEquipment": "Pedicure chair",
+      "owner": "Belongs to",
+      "location": "Where it's kept (optional)",
+      "locationPlaceholder": "Station 2, storage box 3…",
+      "note": "Note (optional)",
+      "addPhoto": "Add photo",
+      "changePhoto": "Change photo",
+      "removePhoto": "Remove photo",
+      "rented": "Rented, not bought",
+      "rentedHint": "The business pays a monthly rent for it. Kept as a cost for the money overview.",
+      "monthlyCost": "Monthly cost",
+      "rentedShort": "rented",
+      "perMonth": "{amount}/mo",
+      "rentTotal": "Rented equipment costs {amount} a month.",
+      "delete": "Delete"
+    },
+    "settings": {
+      "title": "Settings",
+      "groups": {
+        "salon": "Your business",
+        "team": "Team",
+        "services": "Services",
+        "space": "Your space",
+        "booking": "Online booking",
+        "email": "Email",
+        "language": "Language",
+        "help": "Help",
+        "business": "Business",
+        "website": "Website",
+        "search": "Search engines"
+      },
+      "items": {
+        "salon": "Business details",
+        "hours": "Opening hours",
+        "staff": "Staff",
+        "week": "Shifts",
+        "services": "Services & prices",
+        "categories": "Categories",
+        "chairs": "Chairs & rooms",
+        "equipment": "Equipment",
+        "rules": "Bookings",
+        "email": "Client emails",
+        "language": "Language",
+        "activity": "Activity",
+        "found": "Search engines",
+        "help": "Help",
+        "website": "Design",
+        "data": "Download my data",
+        "feature": "Suggest a feature",
+        "google": "Google profile",
+        "otherEngines": "Other search engines",
+        "bookingPage": "Booking page"
+      },
+      "hints": {
+        "salon": "Name, logo, contact and colours",
+        "hours": "Open days, closed days and holidays",
+        "staff": "Who works here, what they do and their app access",
+        "week": "Who works when",
+        "services": "What clients can book, and the price",
+        "categories": "How services are grouped",
+        "chairs": "Where each service is done",
+        "equipment": "What you own or rent",
+        "rules": "Approvals, notice and cancellations",
+        "invite": "Clients recommend you to friends and both get a discount",
+        "email": "Sender name and a test email",
+        "language": "Your language and your clients' language",
+        "activity": "Who did what, and when",
+        "found": "Google, Maps, Bing, Apple and your website: a step-by-step checklist",
+        "help": "How things work, in plain words",
+        "website": "Look, photos and texts",
+        "data": "Clients, bookings and services as spreadsheets",
+        "feature": "Tell us what Statio should do next",
+        "insights": "Fewer empty hours in your day",
+        "domain": "Your own web address",
+        "google": "Show up on Google Search and Maps",
+        "otherEngines": "Apple Maps, Bing and social media",
+        "bookingPage": "How your booking page looks, its link and QR code",
+        "assistant": "What it writes for you, and this month's allowance",
+        "locations": "Your shops: address, hours and team of each"
+      },
+      "start": {
+        "title": "Getting started",
+        "hint": "{left, plural, one {One step left} other {# steps left}} before clients can book you online.",
+        "business": "Add your business details",
+        "hours": "Set your opening hours",
+        "services": "Add your services and prices",
+        "staff": "Add your staff and their hours",
+        "link": "Open your booking page and share the link"
+      },
+      "intro": "Everything works without changing anything here. Change only what you want.",
+      "doors": {
+        "business": {
+          "name": "Business",
+          "hint": "Name, logo, contact, opening hours and closed days"
+        },
+        "team": {
+          "name": "Team",
+          "hint": "Staff, shifts and app access"
+        },
+        "services": {
+          "name": "Services",
+          "hint": "Services, prices and categories"
+        },
+        "booking": {
+          "name": "Bookings",
+          "hint": "New clients, cancellations and emails"
+        },
+        "website": {
+          "name": "Website",
+          "hint": "Design, web address and booking link"
+        },
+        "search": {
+          "name": "Get found",
+          "hint": "Google profile and other search engines"
+        }
+      },
+      "extra": {
+        "title": "From the Statio team",
+        "design": "Request a custom web design, from $300*",
+        "designHint": "A website designed for your salon, with your photos, colours and words. We set it up for you.",
+        "designSubject": "Custom web design for {salon} · Promo code STATIOCORE",
+        "pro": "Get Statio Pro",
+        "proHint": "Hosted for you, with reminders, reviews, offers, a shop, finances and more looks.",
+        "note": "* With promo code STATIOCORE. We send you a fixed quote after a short call."
+      }
+    },
+    "hours": {
+      "title": "Opening hours",
+      "weekly": "Every week",
+      "hint": "Nobody can be booked outside these hours, online or by you. Each person's own hours still apply inside them.",
+      "notSet": "Not set yet: right now only each person's working hours count. Save to start using these (Mon–Sat 9:00–20:00 to begin with).",
+      "closed": "Closed",
+      "closures": "Closed days & holidays",
+      "closuresHint": "Whole days the business is closed. Online booking skips them and the calendar shows them.",
+      "from": "From",
+      "to": "Until (optional)",
+      "reason": "Reason (optional)",
+      "reasonPlaceholder": "Christmas, holidays…",
+      "addClosure": "Add closed days",
+      "remove": "Remove",
+      "datesError": "The end date is before the start date."
+    },
+    "week": {
+      "title": "Shifts",
+      "hint": "Each person's regular hours. Tap a name to change them.",
+      "salon": "Open",
+      "setOpening": "Set your opening hours"
+    },
+    "language": {
+      "title": "Language",
+      "hint": "The language of your admin, on every device. It doesn't change what clients see: that's \"Language for clients\" in Settings › Business.",
+      "firstTitle": "Choose your language",
+      "mine": "Your language",
+      "mineHint": "This app, for you only. Each team member chooses their own.",
+      "clients": "Language for clients",
+      "clientsHint": "Your booking page, website and emails to clients."
+    },
+    "activity": {
+      "title": "Activity log",
+      "hint": "Who added, changed, deleted or downloaded what, and when. Downloads, deletions and access changes are in red.",
+      "someone": "Someone (no longer on the team)",
+      "system": "The app",
+      "none": "Nothing yet.",
+      "filters": {
+        "all": "All",
+        "client": "Clients",
+        "staff": "Staff",
+        "visit": "Visits"
+      },
+      "objects": {
+        "client": "Client",
+        "staff": "Staff",
+        "visit": "Visit",
+        "service": "Service",
+        "services": "Services",
+        "category": "Service group",
+        "chair": "Chair",
+        "equipment": "Equipment",
+        "salon": "Business details",
+        "rules": "Bookings",
+        "opening_hours": "Opening hours",
+        "closure": "Closed days",
+        "block": "Blocked time",
+        "mail": "Email settings",
+        "language": "Language",
+        "stations": "Chairs section name",
+        "found": "Search engines",
+        "stock": "Stock",
+        "supplier": "Supplier",
+        "pickup": "Pick-up",
+        "order": "Supplier order"
+      },
+      "verbs": {
+        "create": "Added",
+        "update": "Changed",
+        "delete": "Deleted",
+        "remove": "Removed",
+        "export": "Downloaded",
+        "import": "Imported",
+        "add": "Added",
+        "invite": "Invite sent",
+        "reset": "Sign-in reset",
+        "access": "Access changed",
+        "off": "Reported off",
+        "setup": "Set up",
+        "approve": "Approved",
+        "decline": "Declined",
+        "done": "Marked done",
+        "cancel": "Cancelled",
+        "move": "Moved",
+        "reassign": "Given to someone else",
+        "checkout": "Paid",
+        "no_show": "No-show",
+        "confirm": "Confirmed",
+        "welcome": "Welcome sent",
+        "starter": "Starter services added",
+        "label": "Changed",
+        "cancel_absence": "Cancelled (staff off)",
+        "joined": "Joined",
+        "rhythm": "Visit rhythm set",
+        "received": "Received",
+        "adjust": "Count corrected",
+        "charged": "Picked up and paid",
+        "removed": "Not wanted",
+        "receivedDiff": "Received with differences",
+        "show": "Shown on website",
+        "hide": "Hidden",
+        "reply": "Replied",
+        "remind": "Reminded",
+        "invited": "Invited back",
+        "invitedEmail": "Invites emailed"
+      }
+    },
+    "found": {
+      "title": "Search engines",
+      "intro": "Where clients look for you: Google, Maps, Bing, Apple, social media and your own website. Each reads different signals. This checklist walks you through setting each one up correctly. Tick a step when it's done.",
+      "progress": "{done} of {total} done",
+      "noPromise": "Nobody can promise a top position: Google says you can't pay to rank higher. What helps is being complete, accurate and the same everywhere.",
+      "same": {
+        "title": "The same details everywhere",
+        "hint": "Copy these exactly into every profile. Different names, phone numbers or hours confuse search engines and clients.",
+        "name": "Business name",
+        "address": "Address",
+        "phone": "Phone",
+        "website": "Website",
+        "booking": "Booking link",
+        "hours": "Opening hours",
+        "about": "Description",
+        "missing": "Not filled in yet: add it",
+        "profiles": "Your profiles",
+        "noWebsite": "None: your booking link works as your website. Have one? Add it ›"
+      },
+      "steps": {
+        "website": {
+          "title": "Your website",
+          "why": "Google (including AI Overviews), Bing and ChatGPT read your website first. They need clear pages they can read; no special \"AI files\" are needed.",
+          "todo": [
+            "Add the booking button or widget to your website.",
+            "Describe each service with its price or price range, your area and your opening hours, as plain text.",
+            "Paste the business details code below into your home page, so your hours, address and services are read correctly.",
+            "Check that it loads fast on a phone."
+          ]
+        },
+        "google": {
+          "title": "Google Business Profile (Search and Maps)",
+          "why": "Maps results are based mainly on relevance, distance and prominence. A complete, verified profile is the foundation.",
+          "todo": [
+            "Claim and verify your business.",
+            "Pick the right main category (e.g. Hair salon, Nail salon) and add your services.",
+            "Copy the name, address, phone and hours from the box above.",
+            "Add your booking link under Bookings, so a \"Book\" button appears.",
+            "Add real photos of the salon and your work."
+          ]
+        },
+        "searchConsole": {
+          "title": "Google Search Console",
+          "why": "Shows whether Google can find and index your website, and what people search to find you. Only if you have your own website.",
+          "todo": [
+            "Add your website and verify it (your website builder or web designer can help).",
+            "Submit your website's sitemap.",
+            "Look at it once a month for problems."
+          ]
+        },
+        "bing": {
+          "title": "Bing Places and Bing Webmaster Tools (Bing, Copilot, ChatGPT)",
+          "why": "Bing powers Copilot's answers, and for local questions ChatGPT searches the web through Bing.",
+          "todo": [
+            "Bing Places: import your Google Business Profile in one step, then check the details.",
+            "Bing Webmaster Tools: import your website from Google Search Console.",
+            "Webmaster Tools also shows when your pages are cited in Copilot and Bing AI answers."
+          ]
+        },
+        "apple": {
+          "title": "Apple Business Connect (Apple Maps and Siri)",
+          "why": "iPhone users see your Apple Maps place card when they ask Siri or search Maps.",
+          "todo": [
+            "Claim your place card.",
+            "Use exactly the same name, address, phone and hours as above.",
+            "Add your booking link and a few photos."
+          ]
+        },
+        "social": {
+          "title": "Instagram and Facebook",
+          "why": "Many clients find businesses here first. A \"Book\" button takes them straight to your booking page.",
+          "todo": [
+            "Add your profiles in Business details, so they show on your booking page.",
+            "Instagram: Edit profile › Action buttons › Book, with your booking link.",
+            "Facebook page: add a \"Book now\" button with your booking link.",
+            "Put the booking link in your bio and in WhatsApp Business."
+          ]
+        },
+        "reviews": {
+          "title": "Reviews, a steady routine",
+          "why": "Reviews count towards prominence on Maps, and clients read them before booking.",
+          "todo": [
+            "Copy your review link from Google Business Profile (\"Ask for reviews\").",
+            "After a visit, send it to happy clients by WhatsApp. (Hosted Statio asks every client for a review for you.)",
+            "Reply to every review, good or bad, within a few days."
+          ]
+        }
+      },
+      "links": {
+        "googleProfile": "Open Business Profile",
+        "searchConsole": "Open Search Console",
+        "bingPlaces": "Open Bing Places",
+        "bingWebmaster": "Open Webmaster Tools",
+        "appleConnect": "Open Business Connect"
+      },
+      "code": {
+        "title": "Business details code for your website",
+        "hint": "Paste this into your home page, or send it to your web designer. Your booking page already has it. Copy it again after changing hours or services.",
+        "widget": "Booking widget code"
+      },
+      "needWebsite": "No website yet? Switch on the free website made from your details, in Settings › Website. Until then your booking page works as one",
+      "needProfiles": "Add your Instagram or Facebook in Business details first.",
+      "markDone": "Mark as done",
+      "doneOn": "Done {day}",
+      "websiteDone": "Done for you: your website is on and already does all of this.",
+      "websiteDoneList": [
+        "Your services and prices, area and opening hours, as text search engines read.",
+        "The business details code for Google, Bing and Apple, always up to date.",
+        "A Book button on every page, and a sitemap search engines can find.",
+        "Fast on phones, with no cookie banner needed."
+      ],
+      "websiteOpen": "Open Your website"
+    },
+    "share": {
+      "copyText": "Copy message",
+      "copyLink": "Copy link",
+      "copied": "Copied",
+      "more": "Share…",
+      "instagram": "WhatsApp lets you pick a client, a group or your Status. For Instagram, copy the message for a post or story, and put the link in your bio or a link sticker."
+    },
+    "optimiser": {
+      "howTitle": "How online booking works",
+      "how1": "The client picks a service, and a person if they want.",
+      "how2": "They see every free time in that person's working hours. Booked or blocked times, and times too soon (see \"Minimum notice\"), are left out.",
+      "how4": "With a daily limit, once someone has that many visits in a day, clients can't book them online that day. You can still book them yourself.",
+      "hoursNote": "Want shorter days?",
+      "hoursLink": "Change working hours",
+      "previewTitle": "What your clients see",
+      "previewHint": "The times offered online on a real day, exactly as the booking page shows them. Try other settings and compare; nothing changes for clients until you tap Apply.",
+      "who": "Who",
+      "anyone": "Anyone",
+      "service": "Service",
+      "alreadyBooked": "Already booked",
+      "now": "Clients see now · {count, plural, =0 {no times} one {# time} other {# times}}",
+      "next": "With your changes · {count, plural, =0 {no times} one {# time} other {# times}}",
+      "noTimes": "No times offered online this day.",
+      "legend": "Crossed out: no longer offered. Green: newly offered.",
+      "tryHint": "Change a setting above to compare.",
+      "reset": "Undo changes",
+      "apply": "Apply",
+      "applied": "Applied. Clients see the new times from now on; it's recorded in Activity.",
+      "modeTitle": "How times are offered online",
+      "modes": {
+        "recommend": "Recommend times that fill gaps",
+        "only": "Show only times that fill gaps",
+        "all": "Show all times alike"
+      },
+      "modeHints": {
+        "recommend": "Recommended: the times that leave no gap go on top. Every other time stays bookable.",
+        "only": "Strict (\"Compact day\"): once a person has a booking that day, clients only see times right next to it. Fewer choices, so some clients may book elsewhere.",
+        "all": "No suggestions: every free time looks the same."
+      },
+      "tryIt": "See what clients get in Schedule optimiser",
+      "allServices": "All services",
+      "currentChip": "now",
+      "nothingBooked": "Nothing booked yet that day.",
+      "nowShort": "Clients see now",
+      "nextShort": "With your changes",
+      "recommendedRow": "Recommended",
+      "timesCount": "{count, plural, =0 {no times} one {# time} other {# times}}",
+      "onlineSuggested": "Online bookings ({count} at a recommended time)"
+    },
+    "holidays": {
+      "title": "Public holidays",
+      "hint": "Pick your country (and region). You'll see the holidays of the next 12 months: untick the days you work, then add the rest as closed days. Local town holidays you add by hand above.",
+      "country": "Country",
+      "region": "Region",
+      "wholeCountry": "Whole country",
+      "show": "Show holidays",
+      "none": "No holidays found for the next 12 months.",
+      "closedChip": "Closed",
+      "localChip": "Local or optional",
+      "untickHint": "Public holidays are ticked. Local or optional ones aren't: tick them if you close that day.",
+      "add": "Add as closed days",
+      "added": "{count, plural, =0 {Nothing new to add.} one {# holiday added as a closed day.} other {# holidays added as closed days.}}",
+      "credit": "Holiday data: date-holidays project (CC BY 3.0). Please check the dates: they can change locally."
+    },
+    "colourCard": {
+      "title": "Colour card",
+      "previous": "Last time",
+      "repeat": "Use the same formula",
+      "placeholder": "e.g. Majirel 6.3 + 20 vol, 1:1.5, 35 min. Roots only.",
+      "saved": "Saved",
+      "history": "Colour history",
+      "consentGiven": "Patch test / allergy check confirmed ({day})",
+      "consentMissing": "Patch test / allergy check not confirmed yet.",
+      "record": "Client confirmed"
+    },
+    "messages": {
+      "title": "{count, plural, one {# email sent} other {# emails sent}}",
+      "failed": "Failed",
+      "templates": {
+        "confirmed": "Booking confirmed",
+        "requested": "Booking request received",
+        "approved": "Booking approved",
+        "declined": "Booking declined",
+        "cancelled_by_salon": "Visit cancelled by the salon",
+        "cancelled_by_client": "Cancellation confirmed",
+        "moved": "Visit moved",
+        "rescheduled": "Visit changed",
+        "welcome": "Welcome"
+      }
+    },
+    "clientTools": {
+      "title": "Duplicates and data",
+      "possible": "{count, plural, one {# possible duplicate} other {# possible duplicates}}",
+      "suggestionsHint": "Same name, phone or email as this client:",
+      "mergeHint": "Merge another client into {name}: their visits, notes and messages move here, and the duplicate is removed.",
+      "search": "Search a client to merge…",
+      "merge": "Merge here",
+      "mergeConfirm": "Merge {other} into {name}? Their visits and notes move to {name} and {other} is removed. This can't be undone.",
+      "merged": "Merged. Everything is now on this client.",
+      "eraseHint": "If the client asks to delete their data (GDPR): name, contact, notes, formulas and messages are erased. Their visits stay, without a name, so your history and totals still add up.",
+      "erase": "Erase this client's personal data",
+      "eraseConfirm": "Erase all personal data of {name}? This can't be undone."
+    },
+    "money": {
+      "when": {
+        "every": "Paid every",
+        "month": "Month",
+        "week": "Week",
+        "on": "On",
+        "dayOfMonth": "{day, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}"
+      }
+    },
+    "website": {
+      "title": "Your website",
+      "intro": "A one-page website made from what you already keep here. Pick the pieces and the look; your services, prices, team and hours stay up to date by themselves.",
+      "live": "Your website is live",
+      "liveAt": "Clients see it at {address}",
+      "off": "Your website is off",
+      "offHint": "Your address opens the booking page, as now.",
+      "neverPublished": "Not published yet. Preview it, then publish when you're happy.",
+      "switchLabel": "Show my website at my address",
+      "switchHint": "When off, your address opens the booking page.",
+      "changes": "Changes saved · not published yet",
+      "upToDate": "Everything is published",
+      "preview": "Preview",
+      "publish": "Publish",
+      "save": "Save",
+      "saved": "Saved. Preview it, then publish when you're happy.",
+      "published": "Published. Clients see your website now.",
+      "turnedOff": "Your website is off. Your address opens the booking page.",
+      "presetTitle": "Starting point",
+      "presetHint": "What you sell decides which sections and style you start from. You can change everything afterwards.",
+      "presetCurrent": "In use",
+      "presetUse": "Use this",
+      "presets": {
+        "barbershop": {
+          "name": "Barbershop",
+          "hint": "Cuts, fades and beards: prices first, the team, your work, hours."
+        },
+        "hair": {
+          "name": "Hair salon",
+          "hint": "Women’s or unisex hair, with beauty extras: services by group, team, your work, questions."
+        },
+        "nails": {
+          "name": "Nails, lashes & brows",
+          "hint": "Studios that sell with photos: your work right at the top, many short services, patch test."
+        },
+        "aesthetics": {
+          "name": "Beauty & aesthetics",
+          "hint": "Facials, hair removal, body and skin treatments: what each treatment is, who does it, reviews."
+        },
+        "spa": {
+          "name": "Spa & massage",
+          "hint": "Long, calm treatments described in words, offers and gift moments."
+        },
+        "laser": {
+          "name": "Laser hair removal",
+          "hint": "Areas and course offers up front, then who does it and what clients ask before a first session."
+        }
+      },
+      "directionTitle": "Look",
+      "directionHint": "Fonts, colours and shapes. Your logo and brand colour are used in every look, and text stays easy to read.",
+      "piecesTitle": "Pieces",
+      "piecesHint": "Switch pieces on or off, move them up or down, and pick a layout for each. The top bar with your name and the footer are always there.",
+      "up": "Move up",
+      "down": "Move down",
+      "show": "Show",
+      "layout": "Layout",
+      "hiddenBecause": "Hidden for now: {why}",
+      "pieces": {
+        "hero": {
+          "name": "Cover",
+          "why": "",
+          "about": "The first thing visitors see: your name, one line, and a photo or your logo"
+        },
+        "services": {
+          "name": "Services & prices",
+          "why": "add services.",
+          "about": "Your services and prices, from the app"
+        },
+        "team": {
+          "name": "Team",
+          "why": "have two or more people taking bookings online.",
+          "about": "Who works here, with a Book button each"
+        },
+        "about": {
+          "name": "About us",
+          "why": "write your text below.",
+          "about": "A few words about you and how you work"
+        },
+        "faq": {
+          "name": "Questions",
+          "why": "add a question below.",
+          "about": "Answers to what clients often ask"
+        },
+        "hours": {
+          "name": "Hours & location",
+          "why": "add opening hours or an address.",
+          "about": "Opening hours, address and directions"
+        },
+        "contact": {
+          "name": "Contact",
+          "why": "add a phone, email or profile in Business details.",
+          "about": "Phone, email, WhatsApp and social links"
+        },
+        "gallery": {
+          "name": "Our work (photos)",
+          "why": "add photos below.",
+          "about": "Photos of your business and your work"
+        }
+      },
+      "photo": "Big photo at the top",
+      "photoHint": "One photo for the top of your website: a real photo of your salon or your work. Without one, the top uses your colours.",
+      "addPhoto": "Add a photo",
+      "changePhoto": "Change photo",
+      "removePhoto": "Remove photo",
+      "textsTitle": "Your words",
+      "textsHint": "Written in {language}, the language your clients see.",
+      "tagline": "One line under your name",
+      "taglineHint": "Empty: the short description from Business details.",
+      "about": "About us",
+      "aboutHint": "A few paragraphs about you, your business and how you work. Leave an empty line between paragraphs.",
+      "faqTitle": "Questions and answers",
+      "faqHint": "Parking, payment, cancellations, children… Up to 10.",
+      "question": "Question",
+      "answer": "Answer",
+      "addQuestion": "+ Add a question",
+      "removeQuestion": "Remove",
+      "showPrices": "Show prices",
+      "showPricesHint": "Off: services are listed without prices.",
+      "whatsapp": "WhatsApp button",
+      "whatsappHint": "Only if you answer WhatsApp on your business phone.",
+      "legalTitle": "Legal notice",
+      "legalHint": "Optional. In many countries (the EU and UK, for example) a business website must show who runs it. Your company name and tax or VAT number appear in the footer.",
+      "legalName": "Company name",
+      "taxId": "Tax / VAT number",
+      "liveData": "Kept up to date for you",
+      "badge": "“Website by Statio CRM” shows in the footer.",
+      "previewNote": "Preview: only you see this.",
+      "emptyName": "Your business",
+      "paletteTitle": "Colours",
+      "paletteHint": "Ready-made colours for {look}, or your own brand colour from Business details.",
+      "galleryTitle": "Our work",
+      "galleryHint": "Up to 12 photos of your business and your work. Only use photos of clients who said yes to being shown.",
+      "addPhotos": "Add photos",
+      "caption": "What it shows (optional)",
+      "moveLeft": "Move earlier",
+      "moveRight": "Move later",
+      "remove": "Remove",
+      "uploading": "Adding…",
+      "photoError": "That photo couldn’t be added. Try a JPG or PNG.",
+      "galleryFull": "The gallery is full.",
+      "photoIdeal": "Ideal:",
+      "photoIdealSize": "landscape (wider than tall), at least 1500 × 900 pixels, JPG or PNG. A photo from a recent phone is fine.",
+      "photoTips": "Keep the main subject in the middle. With “Big photo” your name sits on the lower left, so leave calm space there.",
+      "cropBig": "How it will look: wide, with your name over the lower left.",
+      "cropSplit": "How it will look: upright, beside your name.",
+      "photoSmall": "This photo is {w} × {h} pixels: it may look blurry on a computer. A bigger one will look sharper.",
+      "gallerySize": "Shown upright (4:5). Ideal: at least 1000 × 1250 pixels, the work in the middle of the photo.",
+      "brandPick": "Your brand colour",
+      "brandIdeas": "Colour ideas",
+      "brandHint": "Used for buttons and accents; text stays easy to read whatever you pick. It’s the same colour as in Business details, so your booking page changes too when you save.",
+      "solo": "Just me",
+      "soloHint": "You work on your own: “About me” instead of a team, and “My work” for your photos.",
+      "mobile": "We come to you",
+      "mobileHint": "You visit clients at home or at events: no business address or map on the website, the area you cover instead.",
+      "serviceArea": "Area you cover",
+      "serviceAreaHint": "e.g. Madrid centre and Pozuelo",
+      "popularFor": "Popular for {type}",
+      "popular": "Popular",
+      "view": "View",
+      "typeTitle": "Type of business",
+      "styleTitle": "Style",
+      "sectionsTitle": "Sections",
+      "sectionsHint": "In the order clients see them. Tap one to change its design and what it says.",
+      "addSection": "Add a section",
+      "add": "Add",
+      "footerRow": "Footer and legal notice",
+      "footerValue": "Company name and tax number not added yet",
+      "notFilled": "Not filled in yet, so clients don’t see it",
+      "ready": "Ready",
+      "servicesCount": "{n, plural, =0 {no services yet} one {# service} other {# services}}",
+      "peopleCount": "{n, plural, one {# person} other {# people}}",
+      "photosCount": "{n, plural, =0 {no photos yet} one {# photo} other {# photos}}",
+      "questionsCount": "{n, plural, =0 {no questions yet} one {# question} other {# questions}}",
+      "showSection": "Show on my website",
+      "hiddenUntil": "Clients won’t see this section until you {why}",
+      "design": "Design",
+      "fromTheApp": "Comes from the app, so it’s always up to date",
+      "goServices": "Edit services and prices",
+      "goTeam": "Edit your team",
+      "goDetails": "Edit business details",
+      "goHours": "Edit opening hours",
+      "back": "Back",
+      "allStyles": "All styles",
+      "aboutMe": "About me",
+      "galleryMe": "My work",
+      "publishChanges": "Publish changes",
+      "publishing": "Publishing…",
+      "saving": "Saving…",
+      "confirmType": "Switch to {type}? Your sections and style change to suit it. Your texts and photos stay.",
+      "useIt": "Switch",
+      "cancel": "Cancel",
+      "descriptionsHint": "Prices, times and descriptions come from Services. With the “Treatments” design each service shows its description.",
+      "photoAdded": "With photo",
+      "logo": "Your logo",
+      "logoHint": "Shown at the top of your website, and on your booking page and emails. PNG with a clear background, or SVG, works best. It changes everywhere at once.",
+      "noLogo": "No logo",
+      "addLogo": "Add logo",
+      "changeLogo": "Change logo",
+      "removeLogo": "Remove logo",
+      "messagesKept": "Messages are kept for 90 days.",
+      "exampleLabel": "Example · add your photo",
+      "useMonogram": "Use a logo made from your initials",
+      "exampleLogoLabel": "Example · add your logo",
+      "example": "Example",
+      "aboutPhoto": "Photo for About us",
+      "aboutPhotoHint": "Upright (4:5), ideally at least 1000 × 1250 pixels: you at work, your team or your business.",
+      "aboutUsesTop": "No photo of its own yet, so it uses your top photo.",
+      "photoService": "Service, for “Book this”",
+      "noOne": "Not shown",
+      "noPhotoDesign": "This design shows your logo and name on your colour, with no photo. Want a photo? Choose “Big photo” or “Text and photo” above.",
+      "photoTitleBig": "Cover photo",
+      "photoTitleSplit": "Photo beside your name",
+      "photoWhy": "A real photo of your business or your work.",
+      "whereLabel": "Where",
+      "bestLabel": "Best file",
+      "tipLabel": "Tip",
+      "whereBig": "Fills the whole top of your website, behind your name.",
+      "whereSplit": "Upright, next to your name and the Book button.",
+      "landscape": "Landscape (wide)",
+      "portrait": "Portrait (upright)",
+      "tipBig": "Keep the lower left calm: your name and buttons go there.",
+      "tipSplit": "You at work, your team or your best result. Keep it centred.",
+      "logoNow": "Your logo changes everywhere straight away, without publishing.",
+      "logoWhere": "The top bar of your website, your booking page and emails.",
+      "logoWhereStar": "Large in the middle of your cover, and on your booking page and emails.",
+      "logoShape": "Square or wide",
+      "logoTip": "A transparent background looks best on any colour. No logo? Use one made from your initials.",
+      "overview": "Overview",
+      "stepOf": "Step {n} of {total}",
+      "walkThrough": "Go through each step, or tap any row",
+      "next": "Next",
+      "backToOverview": "Done · back to the overview",
+      "livePreview": "Live preview",
+      "hidePreview": "Hide",
+      "showPreview": "Show",
+      "previewHidden": "This section isn’t on your website yet: switch it on and fill it in to see it here.",
+      "tapPictures": "Tap the camera buttons to change your cover photo, logo or app icon.",
+      "embedTitle": "Already have another website? Add booking to it",
+      "embedHint": "Paste this code where the booking should appear on that website:",
+      "embedLink": "Or link to your booking page:",
+      "logoRequired": "Your logo · Required for this design",
+      "logoRequiredHint": "“Logo and text” is built around your logo, shown large on your colour. No logo file? Use one made from your initials, or a photo of your card or sign.",
+      "studio": {
+        "close": "Back to Settings",
+        "draft": "Changes not published yet",
+        "upToDate": "Published · up to date",
+        "publishedNow": "Published. Clients see it now",
+        "publish": "Publish",
+        "device": "Preview on",
+        "phone": "Phone",
+        "computer": "Computer",
+        "hint": "Tap a section to pick it, then tap it again to change its words and photos.",
+        "gotIt": "Got it",
+        "tools": "Website tools",
+        "edit": "Edit",
+        "hide": "Hide",
+        "done": "Done",
+        "photos": "Photos",
+        "style": "Style",
+        "sections": "Sections",
+        "more": "More",
+        "show": "Show",
+        "hidden": "Hidden sections",
+        "emptyShort": "Empty, clients don't see it yet",
+        "sectionsHint": "Your website from top to bottom. Tap a name to go to it.",
+        "popularHint": "Look and colours that suit your kind of salon. Tap one to try it.",
+        "colours": "Colours",
+        "look": "Look",
+        "designs": "{n} designs",
+        "marqueeHint": "This design needs no photo: your name, and your services running across in your colour. Add a cover photo and your website switches to the photo design.",
+        "addCover": "Add a cover photo",
+        "photosTitle": "What you need",
+        "styleTitle": "Style",
+        "sectionsTitle": "Sections",
+        "moreTitle": "More",
+        "photosIntro": "Real photos make clients trust you and book. None of these is required: add them when you have them.",
+        "added": "Added",
+        "recommended": "Recommended",
+        "optional": "Optional",
+        "change": "Change",
+        "remove": "Remove",
+        "photosOf": "{n, plural, =0 {No photos yet · 6 to 12 is best} one {1 photo · 6 to 12 is best} other {# photos · 6 to 12 is best}}",
+        "addSeveral": "Add photos",
+        "captions": "Captions and order",
+        "teamOf": "{n} of {total} with a photo",
+        "add": "Add",
+        "addLogo": "Add your logo",
+        "photoError": "That photo couldn't be used. Try another one (JPG or PNG).",
+        "tipsTitle": "Five tips for great photos",
+        "tips": {
+          "light": {
+            "title": "Daylight.",
+            "text": "Shoot near a window with the lights on. No flash."
+          },
+          "tidy": {
+            "title": "A tidy frame.",
+            "text": "Clear the counter and hide bottles and cables."
+          },
+          "shape": {
+            "title": "The right shape.",
+            "text": "Cover photo sideways; everything else upright."
+          },
+          "team": {
+            "title": "The same for everyone.",
+            "text": "Same wall, same distance, so the team looks professional."
+          },
+          "consent": {
+            "title": "Ask first.",
+            "text": "Clients and staff must agree to appear on your website."
+          }
+        },
+        "need": {
+          "cover": {
+            "title": "Cover photo",
+            "why": "The first thing every client sees. Your business at its best, or your work up close.",
+            "shape": "Wide: hold the phone sideways"
+          },
+          "work": {
+            "title": "Your work",
+            "why": "Finished results sell the booking: cuts, colour, nails, brows. Before and after works very well.",
+            "shape": "Square or upright · 6 to 12 photos"
+          },
+          "about": {
+            "title": "About you",
+            "why": "People book people. You at work, or your team together.",
+            "shape": "Upright"
+          },
+          "team": {
+            "title": "Team photos",
+            "why": "Clients choose who does their hair or nails.",
+            "shape": "Upright · face and shoulders",
+            "note": "Without a photo, each person shows with their initials."
+          },
+          "logo": {
+            "title": "Logo",
+            "why": "For the \"Logo and text\" design and your app icon. Without one, your name is written in your website's lettering.",
+            "shape": "PNG or SVG, plain background"
+          }
+        },
+        "aboutHelp": "Help me start",
+        "aboutQ": {
+          "since": "Since what year are you open?",
+          "known": "What are you known for?",
+          "knownHint": "For example: natural colour and calm, unhurried visits",
+          "love": "What do your clients like most?",
+          "loveHint": "For example: that we really listen"
+        },
+        "aboutWrite": "Write my text",
+        "aboutReplace": "Replace my text",
+        "cancel": "Cancel",
+        "aboutNote": "A first draft in your website's language, made from your answers. Change anything you like.",
+        "faqSuggest": "Questions clients often ask",
+        "faqSuggestHint": "Tap one to add it with your answer.",
+        "question": "Question",
+        "answer": "Answer",
+        "answerPlaceholder": "Your answer",
+        "addIt": "Add",
+        "emptyTap": "Tap to fill it in",
+        "swipe": "swipe",
+        "prevDesign": "Previous design",
+        "nextDesign": "Next design",
+        "empty": {
+          "hero": "",
+          "services": "Your services and prices will show here.",
+          "team": "Your team shows here when two or more people work with you.",
+          "gallery": "Add photos of your work.",
+          "about": "A few words about you.",
+          "patchTest": "Shows when a service needs a patch test.",
+          "reviews": "Your Google rating and what clients say.",
+          "faq": "Answers to questions clients often ask.",
+          "hours": "Your opening hours and address.",
+          "contact": "Your phone, email and social media."
+        },
+        "closeSheet": "Close",
+        "heroName": "Show the business name under the logo",
+        "heroNameHint": "Turn it off if your logo already includes the name.",
+        "taglineUnderLogo": "One line under your logo",
+        "aboutWriting": "Writing…"
+      },
+      "showEmail": "Show email",
+      "showEmailNone": "Add your email in Business details first."
+    },
+    "account": {
+      "title": "Sign-in & security",
+      "moreHint": "Your sign-in, other devices, getting back in",
+      "signedInAs": "You sign in with",
+      "ownerEmailHint": "If you lose this email, your second email below gets you back in.",
+      "staffEmailHint": "To sign in with another email, ask the owner to change it on your profile.",
+      "recoveryTitle": "Second email",
+      "recoveryHint": "A different email of yours (personal, or a partner's you trust). If you ever lose the main one, it moves your sign-in there.",
+      "recoveryNone": "Add one now: without it, only our team can get you back in.",
+      "recoveryEmail": "Second email",
+      "recoverySend": "Send the confirmation link",
+      "recoverySent": "We sent a link to {email}. Open it to confirm; it works for 24 hours.",
+      "recoveryChange": "Change",
+      "recoveryRemove": "Remove",
+      "recoveryRemoveConfirm": "Remove your second email? Then only our team can get you back in if you lose your main one.",
+      "recoveryErrors": {
+        "email": "Check the email address.",
+        "same": "Use a different email from the one you sign in with.",
+        "team": "Someone on your team signs in with that email. Use another one.",
+        "tooMany": "Too many tries. Try again in an hour."
+      },
+      "recovered": "You're back in. Add a new second email below.",
+      "devicesTitle": "Other devices",
+      "devicesHint": "Lost your phone, or signed in on a shared computer? Sign out everywhere except here.",
+      "devicesButton": "Sign out on all other devices",
+      "devicesConfirm": "Sign out on every other phone, tablet and computer? This one stays signed in.",
+      "devicesDone": "Signed out everywhere else."
+    },
+    "reviews": {
+      "previewName": "Laura",
+      "restore": "Restore our text"
+    },
+    "bookingPage": {
+      "title": "Booking page",
+      "lookTitle": "Look",
+      "lookHint": "How your booking page looks to clients.",
+      "look": {
+        "site": "Website design",
+        "clean": "Clean"
+      },
+      "lookHints": {
+        "site": "The same fonts, colours and menu as your website, so clients feel they're still with you.",
+        "clean": "Simple black and white, with your logo. Works with any website."
+      },
+      "save": "Save",
+      "linkTitle": "Booking link",
+      "linkHint": "Put it on Instagram, Google and WhatsApp: clients book in a minute.",
+      "qrTitle": "QR code",
+      "qrHint": "Print it for your front desk or mirror: clients scan it with their phone camera and book.",
+      "qrPng": "Download PNG",
+      "qrSvg": "Download SVG (for printing)",
+      "preview": "Preview",
+      "format": "Format",
+      "paper": "Paper",
+      "paperIso": "A sizes (Europe)",
+      "paperUs": "US sizes",
+      "forWhat": "What the QR is for",
+      "headline": {
+        "contact": "Save us in your phone",
+        "book": "Scan to book"
+      },
+      "headlineHint": {
+        "contact": "Opens a page where clients save you in their contacts and book.",
+        "book": "Opens your booking page."
+      },
+      "kinds": {
+        "counter": "Counter card",
+        "stand": "Stand card",
+        "sticker": "Square sticker",
+        "card": "Business card",
+        "flyer": "Flyer"
+      },
+      "kindHints": {
+        "counter": "For the desk, in a clear stand",
+        "stand": "By the mirror or in the waiting area",
+        "poster": "Wall or door; prints at home too",
+        "window": "Seen from the street",
+        "sticker": "Mirror, window or till",
+        "card": "QR on the back, handed out at checkout",
+        "flyer": "To hand out or leave at the desk"
+      },
+      "qrSize": "QR {size} cm",
+      "pdf": "Download PDF for printing",
+      "png": "Picture for WhatsApp (PNG)",
+      "making": "Preparing…",
+      "plainQr": "Just the QR code",
+      "liveHint": "Uses your current logo, photo and colours. Change them anytime and download again.",
+      "styleLabel": "Design",
+      "styles": {
+        "photo": "Photo",
+        "logo": "Logo",
+        "simple": "Simple"
+      },
+      "styleHints": {
+        "photo": "Your website's cover photo, with your business name.",
+        "logo": "Your logo large, on your colours.",
+        "simple": "Your salon name on your colours."
+      },
+      "styleMissingPhoto": "Add a cover photo in Settings › Website to design with it.",
+      "styleMissingLogo": "Add your logo in Settings › Business to design with it.",
+      "styleMissingBoth": "Add a cover photo (Settings › Website) or a logo (Settings › Business) for more designs.",
+      "showLabel": "What to show",
+      "show": {
+        "hours": "Opening hours",
+        "address": "Address",
+        "phone": "Phone",
+        "instagram": "Instagram",
+        "website": "Website address",
+        "services": "Services with prices",
+        "about": "About line",
+        "whatsapp": "WhatsApp",
+        "name": "Business name"
+      },
+      "noRoom": "No room on this format",
+      "servicesPick": "Pick up to 6:",
+      "leftOut": "Didn't fit on this format: {items}. Try a bigger one, or the Logo or Simple design.",
+      "nameNeeded": "Needed for this design"
+    },
+    "logoAdjust": {
+      "title": "Adjust your logo",
+      "hint": "We cut the empty space around it. Drag to move it, and use two fingers or the slider to make it bigger or smaller.",
+      "size": "Size",
+      "removeBg": "Remove background",
+      "removeBgHint": "Makes this plain colour see-through, so your logo sits on your website's colours.",
+      "onWebsite": "On your website",
+      "reset": "Reset",
+      "cancel": "Cancel",
+      "save": "Save logo",
+      "adjust": "Adjust",
+      "error": "We couldn't read that file. Try a PNG or JPG."
+    },
+    "push": {
+      "title": "Notifications",
+      "hint": "On this phone or computer: new booking requests, clients cancelling or moving, the day ahead at 8:00 and visits to close at 20:00.",
+      "turnOn": "Turn on notifications",
+      "turnOff": "Turn off here",
+      "onHere": "On for this device",
+      "test": "Send a test",
+      "testFailed": "The test didn't arrive. Turn notifications off and on again.",
+      "unsupported": "This browser can't show notifications. Try Chrome, Edge, Firefox or Safari.",
+      "iphone": "On iPhone: open the app from your Home Screen (Share, then Add to Home Screen) and turn notifications on there.",
+      "blocked": "Notifications are blocked for this site. Allow them in the browser's site settings, then come back.",
+      "failed": "Notifications couldn't be turned on in this browser. Private windows don't allow them; try a normal window.",
+      "promptTitle": "Get notified on this device",
+      "promptHint": "New requests, cancellations, the day ahead and visits to close, without opening the app.",
+      "notNow": "Not now"
+    },
+    "team": {
+      "title": "Team",
+      "people": "People",
+      "shifts": "Shifts",
+      "equipment": "Equipment",
+      "equipmentHint": "Tools each person owns or rents"
+    },
+    "business": {
+      "title": "Business",
+      "intro": "What clients see on your website, booking page and emails.",
+      "details": "Business details",
+      "notSet": "Not set",
+      "closed": "Closed days",
+      "add": "Add",
+      "closedDay": "Closed",
+      "noClosed": "No closed days coming up.",
+      "holidaysHint": "Add your region's public holidays in one tap.",
+      "hours": "Opening hours",
+      "noHours": "No opening hours yet.",
+      "more": "More",
+      "moreHint": "App colours · Country, time zone and currency",
+      "email": "Email",
+      "clientLanguage": "Language for clients",
+      "clientLanguageHint": "Your booking page, website and emails to clients. This app stays in English."
+    },
+    "siteHub": {
+      "title": "Website",
+      "intro": "Your website, your web address and your booking link, in one place.",
+      "site": "Your website",
+      "design": "Design",
+      "ownColors": "Your colours",
+      "published": "Last published",
+      "edit": "Edit my website",
+      "view": "View",
+      "address": "Web address",
+      "yours": "Your address",
+      "booking": "Booking link and QR",
+      "preview": "Preview",
+      "downloadQr": "Download QR",
+      "bookingHint": "Put it on Instagram, Google and WhatsApp, or print the QR for your front desk.",
+      "look": "Booking page look",
+      "lookHint": "Your website's colours, or simple black and white",
+      "status": {
+        "live": "Published",
+        "changes": "Changes not published yet",
+        "draft": "Not published yet"
+      },
+      "addressVercel": "This is the address set in Vercel. To use your own domain, add it in Vercel (Settings › Domains) and set BETTER_AUTH_URL to it."
+    },
+    "move": {
+      "title": "Move to hosted Statio",
+      "intro": "Prefer to have it run for you? Move everything to Statio, hosted by us. Your clients, visits, services, team and website come with you.",
+      "adds": "What hosted Statio adds",
+      "addsList": [
+        "No Vercel, database or updates to look after: we run it, back it up and keep it secure.",
+        "Reminders before every visit, and reviews asked for you.",
+        "Tasks on Today, offers, a shop, finances and posters with your QR.",
+        "More website looks and colours, and an AI assistant that writes for you."
+      ],
+      "more": "See everything it adds",
+      "how": "How to move",
+      "step1": "Download everything",
+      "step1Hint": "One ZIP file with all your data and photos.",
+      "step1Owner": "The owner downloads it, in More › My account › Download data.",
+      "download": "Download everything",
+      "step2": "Create your Statio account",
+      "step2Hint": "Start the free trial on statiocrm.com with the same email.",
+      "signUp": "Go to statiocrm.com",
+      "step3": "Send us the file",
+      "step3Hint": "Email the ZIP to {email} (or a link to it). We import it for you, free, and tell you when it's ready.",
+      "subject": "Moving from Statio Core · Promo code STATIOCORE",
+      "back": "It works the other way too: with Statio you can download everything and come back to Statio Core at any time."
+    }
+  },
+  "emails": {
+    "details": "{services}\n{day}, {time} · {staff}\n{price}",
+    "manage": "View or cancel: {link}",
+    "confirmed": {
+      "subject": "Booking confirmed: {day} at {time}",
+      "body": "Hi {name}, your booking at {salon} is confirmed."
+    },
+    "requested": {
+      "subject": "Booking request received: {day} at {time}",
+      "body": "Hi {name}, thanks for your request. {salon} will confirm it shortly by email."
+    },
+    "approved": {
+      "subject": "Booking confirmed: {day} at {time}",
+      "body": "Good news {name}, {salon} has confirmed your booking."
+    },
+    "declined": {
+      "subject": "Booking not available: {day} at {time}",
+      "body": "Hi {name}, sorry, {salon} can't take this booking. Please call us or pick another time."
+    },
+    "cancelled_by_salon": {
+      "subject": "Booking cancelled: {day} at {time}",
+      "body": "Hi {name}, {salon} has had to cancel your booking. Please get in touch to find a new time."
+    },
+    "moved": {
+      "subject": "Booking moved: {day} at {time}",
+      "body": "Hi {name}, {salon} has moved your booking. Here are the new details."
+    },
+    "owner_new": {
+      "subject": "New booking: {name}, {day} {time}",
+      "body": "{name} booked online."
+    },
+    "owner_request": {
+      "subject": "Please approve: {name}, {day} {time}",
+      "body": "{name} sent a booking request. Approve or decline it in the app: {admin}"
+    },
+    "owner_cancelled": {
+      "subject": "Cancelled: {name}, {day} {time}",
+      "body": "{name} cancelled online."
+    },
+    "comeback": {
+      "subject": "Time for your next visit to {salon}?",
+      "body": "Hi {name}, it's been a while since your last visit to {salon}. Book your next appointment whenever suits you: {link}"
+    },
+    "whatsappReminder": "Hi {name}! Just a reminder of your appointment at {salon}: {day} at {time} ({services}). See you soon! To change or cancel: {link}",
+    "whatsappComeBack": "Hi {name}! It's {salon}. It's been a while since your last visit. Shall we book your next one? You can pick a time here: {link}",
+    "whatsappComeBackSoon": "Hi {name}! It's {salon}. It's nearly time for your next visit. Shall we save you a spot? Pick a time here: {link}",
+    "rescheduled": {
+      "subject": "Booking changed: {day} at {time}",
+      "body": "Hi {name}, we have changed your booking at {salon} as you asked. Here are the new details."
+    },
+    "owner_moved": {
+      "subject": "Time changed: {name}, {day} {time}",
+      "body": "{name} changed their visit online. New time:"
+    },
+    "staffOff": {
+      "subject": "{staff} can't come in: {days}",
+      "body": "{staff} has told us they can't come in: {days}.\n\n{count, plural, =0 {No visits booked on those days.} one {There is # visit to sort out (give it to someone else, message the client or cancel):} other {There are # visits to sort out (give them to someone else, message the clients or cancel):}}\n{link}"
+    },
+    "whatsappStaffOff": "Hi {name}! It's {salon}. We're sorry, {staff} can't see you on {day} at {time}. Would another time suit you? Pick one here: {link}",
+    "personalOffer": {
+      "subject": "Something for your next visit at {salon}",
+      "body": "Hi {name}, thank you for choosing {salon}. For your next visit we have something for you: {what}. Valid until {until}. Book here: {link}",
+      "percent": "{pct}% off",
+      "and": " and ",
+      "optOut": "Don't want messages like this? {link}"
+    },
+    "cancelled_by_client": {
+      "subject": "Booking cancelled: {day} at {time}",
+      "body": "Hi {name}, your booking at {salon} is cancelled, as you asked. We hope to see you soon."
+    },
+    "calendarLink": "Add to your calendar: {link}",
+    "whatsappWelcome": "Hi {name}! Welcome to {salon}, we're glad you booked with us. See you on {day} at {time} with {staff} ({services}). To change or cancel: {link}",
+    "whatsappWelcomeVisit": "See you on {day} at {time} with {staff} ({services}). To change or cancel: {link}",
+    "whatsappBirthday": "Happy birthday, {name}! Everyone at {salon} wishes you a wonderful day. Treat yourself, we'd love to see you: {link}",
+    "staffInvite": {
+      "subject": "{salon}: your access to the app",
+      "body": "Hi {name},\n\n{salon} has invited you to the team app, to see your calendar and visits from your phone.\n\nYour personal link (valid for {days} days): {link}"
+    },
+    "offerShare": "{salon}: −{pct}% {name}\n{when}, until {until}.\nBook here: {link}",
+    "offerShareEveryDay": "Every day",
+    "inviteLink": "Hi {name}! Recommend {salon} to a friend: they get {friendPct}% off their first visit, and you get {rewardPct}% off your next one once they've been. Your personal link to share: {link}",
+    "staffLink": "Book your next visit with {name} at {salon}: {link}",
+    "recovery": {
+      "confirm": {
+        "subject": "Confirm your second email for {salon}",
+        "body": "Hello,\n\nThe owner of {salon} wants to use this email to get back in if they lose their main one. To confirm, open this link (it works for {hours} hours):\n\n{link}\n\nIf this wasn't you, ignore this email: nothing changes.\n\nStatio CRM"
+      },
+      "added": {
+        "subject": "A second email was added to {salon}",
+        "body": "Hello,\n\n{email} can now get you back into {salon} if you lose this email.\n\nIf this wasn't you, sign in now, go to More › Sign-in & security, remove it and sign out on all other devices. Then write to us.\n\nStatio CRM"
+      },
+      "removed": {
+        "subject": "The second email was removed from {salon}",
+        "body": "Hello,\n\n{email} can no longer be used to get back into {salon}.\n\nIf this wasn't you, sign in now, go to More › Sign-in & security and sign out on all other devices. Then write to us.\n\nStatio CRM"
+      },
+      "link": {
+        "subject": "Get back into {salon}",
+        "body": "Hello,\n\nYou asked to get back into {salon} with this email. Open this link to move your sign-in here (it works for {minutes} minutes):\n\n{link}\n\nIf this wasn't you, ignore this email: nothing changes.\n\nStatio CRM"
+      },
+      "moved": {
+        "subject": "Your sign-in for {salon} moved",
+        "body": "Hello,\n\nThe owner's sign-in for {salon} has moved to {email}. This email can no longer sign in there, and its sign-ins have ended.\n\nIf this wasn't you, write to us at once by replying to this email.\n\nStatio CRM"
+      },
+      "support": {
+        "subject": "You can sign in to {salon} with this email",
+        "body": "Hello,\n\nAs you asked us, the owner's sign-in for {salon} is now this email. Open your sign-in page and get a sign-in link. Then add a second email in More › Sign-in & security.\n\nStatio CRM"
+      }
+    },
+    "pickUp": "To pick up at your appointment: {items} ({total}, pay at pick-up).",
+    "greeting": "Hi {name}!",
+    "welcomeDefault": "Welcome! We're glad you booked with us.",
+    "whatsappFillGap": "Hi {name}! It's {salon}. We have a free time {when} with {staff}. Would you like it? Book it, or another time, here: {link}"
+  },
+  "templates": {
+    "types": {
+      "hair": "Hair salon",
+      "barber": "Barbershop",
+      "nails": "Nail salon",
+      "beauty": "Beauty & aesthetics",
+      "spa": "Spa & massage",
+      "laser": "Laser hair removal"
+    },
+    "typeHints": {
+      "hair": "Cuts, colour, styling",
+      "barber": "Cuts, fades, beards, shaves",
+      "nails": "Manicure, pedicure, nail art",
+      "beauty": "Facials, waxing, lashes & brows",
+      "spa": "Massages, facials, body treatments",
+      "laser": "Face, body and men's areas, consultation"
+    },
+    "groups": {
+      "cuts": "Cuts",
+      "colour": "Colour",
+      "styling": "Styling",
+      "treatments": "Treatments",
+      "beard": "Beard",
+      "shave": "Shave",
+      "manicure": "Manicure",
+      "pedicure": "Pedicure",
+      "nailArt": "Nail art",
+      "face": "Face",
+      "waxing": "Waxing",
+      "lashesBrows": "Lashes & brows",
+      "massage": "Massage",
+      "body": "Body",
+      "consultation": "Consultation",
+      "men": "Men"
+    },
+    "services": {
+      "womensCut": "Women's cut & style",
+      "mensCut": "Men's cut",
+      "kidsCut": "Kids' cut",
+      "rootColour": "Root colour",
+      "highlights": "Highlights",
+      "blowDry": "Blow-dry",
+      "updo": "Updo",
+      "hairTreatment": "Hair treatment",
+      "haircut": "Haircut",
+      "fade": "Skin fade",
+      "beardTrim": "Beard trim",
+      "cutAndBeard": "Cut & beard",
+      "hotTowelShave": "Hot towel shave",
+      "classicManicure": "Classic manicure",
+      "gelManicure": "Gel manicure",
+      "acrylicSet": "Acrylic full set",
+      "infill": "Infill",
+      "spaPedicure": "Spa pedicure",
+      "gelPedicure": "Gel pedicure",
+      "nailArt": "Nail art (per nail set)",
+      "facial": "Facial",
+      "browShape": "Brow shape",
+      "lashLift": "Lash lift",
+      "legWax": "Full leg wax",
+      "bikiniWax": "Bikini wax",
+      "massage": "Massage (60 min)",
+      "relaxMassage": "Relaxing massage",
+      "deepMassage": "Deep tissue massage",
+      "hotStones": "Hot stone massage",
+      "bodyScrub": "Body scrub",
+      "laserConsultation": "Consultation and patch test",
+      "laserUpperLip": "Upper lip",
+      "laserFace": "Full face",
+      "laserUnderarms": "Underarms",
+      "laserBikini": "Bikini line",
+      "laserFullBikini": "Full bikini",
+      "laserArms": "Full arms",
+      "laserHalfLegs": "Half legs",
+      "laserFullLegs": "Full legs",
+      "laserBack": "Back",
+      "laserMenChestBack": "Men's chest and back"
+    },
+    "stations": {
+      "stylingChair": "Chair",
+      "basin": "Basin",
+      "barberChair": "Barber chair",
+      "nailDesk": "Nail desk",
+      "pedicureChair": "Pedicure chair",
+      "treatmentRoom": "Treatment room"
+    }
+  },
+  "join": {
+    "hello": "Hi {name}!",
+    "invited": "{salon} has invited you to the team app.",
+    "useThisEmail": "Sign in with {email}: that's the email your access is linked to.",
+    "expired": "This invite link has expired or was already used. Ask the salon for a new one.",
+    "passwordTitle": "Choose your password",
+    "passwordHint": "At least 10 characters. Only you will know it.",
+    "password": "Password",
+    "repeat": "Repeat password",
+    "show": "Show password",
+    "create": "Save password and sign in",
+    "noPassword": "Prefer no password? Get a sign-in link by email",
+    "errors": {
+      "short": "Use at least 10 characters.",
+      "mismatch": "The two passwords don't match.",
+      "expired": "This invite link has expired or was already used. Ask the salon for a new one."
+    }
+  },
+  "heard": {
+    "recommended": "Recommended by a friend",
+    "social": "Instagram / social media",
+    "google": "Google / Maps",
+    "walkby": "Walked past",
+    "other": "Other",
+    "question": "Heard about us from",
+    "who": "Recommended by",
+    "whoHint": "If a friend recommended them.",
+    "city": "Town or city",
+    "cityHint": "Where they live: tells locals from visitors.",
+    "summary": "Where new clients come from · last 90 days ({count})",
+    "unknown": "Didn't say",
+    "towns": "Where they live",
+    "guests": "{count, plural, one {# visit} other {# visits}} by walk-in guests (not in the list)",
+    "settingsTitle": "Questions for new clients",
+    "settingsHint": "Asked once, on a client's first online booking. Answering is always optional. You see the answers on each client and a summary in Clients.",
+    "askHeard": "Ask \"How did you hear about us?\"",
+    "askHint": "A friend's invite link answers it for them.",
+    "answers": "Answers to choose from",
+    "ownAnswers": "Your own answers",
+    "ownAnswersHint": "Separated by commas, e.g. Flyer, Local radio. Written in the language for clients.",
+    "askCity": "Ask \"Where do you live?\"",
+    "askCityHint": "Shows how many clients are locals and how many visitors."
+  },
+  "help": {
+    "title": "Help",
+    "intro": "How things work, in plain words. The \"?\" on each screen brings you to its topic.",
+    "open": "Open this screen",
+    "topics": {
+      "start": {
+        "title": "Getting started",
+        "points": [
+          "Set up in this order: Business (details and opening hours), Services, Team (their services and shifts), Bookings.",
+          "Settings has six parts: Business, Team, Services, Bookings, Website and Get found. Each opens one page with its own cards.",
+          "Settings shows a \"Getting started\" list until the basics are done.",
+          "Your booking link and QR code are in Settings › Website: put them on Instagram, Google and WhatsApp."
+        ],
+        "where": "/settings"
+      },
+      "install": {
+        "title": "Your own installation",
+        "points": [
+          "What you need: a GitHub account (free), Vercel Pro, required ($20 a month: a salon taking real bookings is commercial use, which needs Vercel Pro), a Neon Postgres database (free plan, created inside Vercel), an email sender, and your own domain (about 10–20 € a year).",
+          "Email is required (sign-in and online booking use email links): create a free account at resend.com, add your domain there, then put RESEND_API_KEY and EMAIL_FROM in Vercel (Settings › Environment Variables, where your private keys live) and redeploy. Your own mailbox works too, with SMTP_HOST, SMTP_PORT, SMTP_USER and SMTP_PASS. You can also set it here under Settings › Bookings › More options › Client emails, and send yourself a test.",
+          "Your domain: in Vercel open Settings › Domains › Add and type your domain. Add the DNS records Vercel shows where you bought the domain (if you bought it in Vercel, it's done). Then set BETTER_AUTH_URL to https://yourdomain.com and redeploy. It can take a few hours to start working.",
+          "Updates: open your copy on GitHub and click Sync fork › Update branch. Vercel redeploys by itself and your data stays as it is.",
+          "Easiest of all: open your copy in Claude Code and say \"Set up my salon\". It walks you through every step."
+        ],
+        "link": "https://github.com/aioperants/statio-core/blob/main/docs/GUIDE.md"
+      },
+      "website": {
+        "title": "Your website",
+        "points": [
+          "Services, prices, team, hours and contact come straight from the app: change them once and your website shows it.",
+          "Website: tap a section to change its words and photos. Tap Publish changes when you're happy.",
+          "Photos: one real photo for the top (wider than tall, at least 1500 × 900) and up to 12 of your work.",
+          "Your web address is the one set in Vercel. To use your own domain, add it in Vercel (Settings › Domains). Then follow Get found so Google and AI assistants find you."
+        ],
+        "where": "/settings/website"
+      },
+      "booking": {
+        "title": "How clients book online",
+        "points": [
+          "Two ways in: by service, or by professional. Each professional also has their own link (Team › their page).",
+          "Times appear only once the services are chosen: their durations add up, plus any clean-up time.",
+          "Clients sign in with an email link (no password) and leave a mobile number.",
+          "Returning clients see \"Book again\". If a day is full, the page offers the next free time.",
+          "Before confirming, clients see a summary with the price and your cancellation rule."
+        ],
+        "where": "/rules"
+      },
+      "times": {
+        "title": "Recommended times",
+        "points": [
+          "Some times get a sparkle badge: right before or after a booking and the first time of an empty day. Clients can still pick any time.",
+          "Choose how times are offered: recommend times that fill gaps (default), show only those, or show all alike.",
+          "Also in Bookings › More options: daily limit, start times every X minutes, minimum notice."
+        ],
+        "where": "/rules?more=1"
+      },
+      "rules": {
+        "title": "Approvals and the safety net",
+        "points": [
+          "Confirm bookings automatically, or approve each new client's first booking yourself.",
+          "Safety net: new clients can only hold a few future bookings, and clients with no-shows need your approval.",
+          "Clients can cancel for free up to the time you set.",
+          "Optional questions for new clients and your welcome message are in Bookings › More options."
+        ],
+        "where": "/rules"
+      },
+      "hours": {
+        "title": "Opening hours, working hours and holidays",
+        "points": [
+          "Opening hours: when the business is open (Settings › Business). Working hours: when each person works (Team). Clients can book only where both overlap.",
+          "Closed days: add a date or a range. Online booking stops and those days disappear from the booking page.",
+          "Public holidays: pick your country and region, untick the days you work, add the rest. Local town holidays you add by hand.",
+          "How far ahead clients can book is in Bookings › More options, in weeks."
+        ],
+        "where": "/settings/business"
+      },
+      "clients": {
+        "title": "Clients",
+        "points": [
+          "Everyone who books becomes a client; walk-in guests don't (see Walk-ins).",
+          "Filters: overdue, due soon, new, regulars, birthdays. The summary shows where new clients come from.",
+          "A client's page has notes, their usual person and service, preferred day, colour history and messages sent.",
+          "Owners and managers can merge duplicates, and erase a client's data on request (their visits stay, without a name).",
+          "Clients belong to the salon. Someone with \"Owns their clients\" keeps those whose first visit was with them."
+        ],
+        "where": "/clients"
+      },
+      "dueBack": {
+        "title": "When a client is due back",
+        "points": [
+          "Each service has a standard \"come back in\". At checkout the professional can choose a different one for this client.",
+          "After 3 visits the app learns the client's own rhythm. You can also set it by hand on their page.",
+          "\"Due soon\" from 80% of their usual interval, \"Overdue\" after it. Clients › Overdue lists them, with a WhatsApp message in one tap."
+        ],
+        "where": "/clients?show=overdue"
+      },
+      "guests": {
+        "title": "Walk-ins and guests",
+        "points": [
+          "New booking › Walk-in books any time, even outside hours or over another visit.",
+          "\"Guest, no client record\" is for one-off visitors: the visit counts, but no client is created.",
+          "If a guest wants to come back, open the visit and tap \"Save as client\"."
+        ],
+        "where": "/new?walkin=1"
+      },
+      "colour": {
+        "title": "Colour card and patch test",
+        "points": [
+          "Each service can \"Keep a colour card\" and \"Ask for a patch test\" (Services › edit).",
+          "Online, clients must tick the patch-test confirmation. For visits you book, tap \"Client confirmed\" on the visit.",
+          "Write the formula on the visit; next time, \"Use the same formula\". The client page shows their colour history."
+        ],
+        "where": "/services"
+      },
+      "offers": {
+        "title": "Offers",
+        "points": [
+          "Quiet hours: % off on chosen days and times, shown to everyone on the booking page. Use Share to post it.",
+          "Personal offers: pick clients and send by WhatsApp, SMS or email.",
+          "Refer a friend: each client gets their own link. The friend gets a discount on their first visit, the client who referred them on their next one."
+        ],
+        "where": "/offers"
+      },
+      "staff": {
+        "title": "Team and access",
+        "points": [
+          "Team has two tabs: People (each person's details, services, hours and access) and Shifts (who works when).",
+          "Add a person with their services (and their own time per service if it differs) and working hours.",
+          "Access levels: Owner, Manager, Stylist, Front desk, Chair renter, with exceptions per area if needed.",
+          "Invite them with a personal link (valid 7 days, one use); they choose their own password. \"Reset sign-in\" signs them out everywhere.",
+          "Each person has their own booking link to share with their clients."
+        ],
+        "where": "/staff"
+      },
+      "found": {
+        "title": "Get found",
+        "points": [
+          "Use exactly the same name, address, phone and hours everywhere.",
+          "Follow the checklist: website, Google Business Profile, Search Console, Bing, Apple, Instagram and Facebook, reviews.",
+          "Your booking page already tells search engines your details. Nobody can promise a top position."
+        ],
+        "where": "/settings/found"
+      },
+      "money": {
+        "title": "Finances",
+        "points": [
+          "Profit for a day, a week or a month: income minus expenses, compared with the period before.",
+          "Income › Services: what clients paid for finished visits, by staff and by service. Chair renters' clients pay them, so the salon counts their chair rent instead (Income › Chair rent).",
+          "Expenses: staff pay (commissions and salaries from each staff page) and your regular costs (rent, electricity…), added under Expenses.",
+          "Regular costs and chair rent count on the day they're due, like your bank statement; salaries on the last day of the month.",
+          "If past visits aren't finished, their money is missing: Finances tells you and links to them.",
+          "\"Export\" gives you the month's numbers as a spreadsheet."
+        ],
+        "where": "/finances"
+      },
+      "shop": {
+        "title": "Shop",
+        "points": [
+          "Products: add them with a price, and a photo if you like. Clients reserve them on your website or when they book, then pick them up and pay at the salon.",
+          "Featured (★): up to 3 products on your website's home page, with a link to your shop page with all of them. They're also suggested to clients after they pick a time when booking.",
+          "Products added to a booking show on the visit and go on the bill when you charge it; untick what they didn't take. Requests from the website wait in Requests.",
+          "Stock & reorder: the stock goes down when a product is charged. Set a minimum and the days a delivery takes, and it shows in To reorder in time, with how many to order and the order written for your supplier.",
+          "For salon use: colour, wax and other supplies you use but don't sell. They're only for stock and reordering.",
+          "Finances counts what was charged under Income › Products, with the margin when cost prices are set."
+        ],
+        "where": "/shop"
+      },
+      "reviews": {
+        "title": "Reviews",
+        "points": [
+          "A couple of hours after a finished visit, every client with an email gets the same \"How was your visit?\" email (at most once every 90 days; turn it on or off in Reviews › Settings).",
+          "They give 1 to 5 stars and a few words on your website, and say whether you may show it. After sending, everyone is offered to post it on Google too.",
+          "New reviews wait in Tools › Reviews: show the ones you like on your website, hide others, and reply in public if you want.",
+          "Your website's Reviews section shows the average of the reviews you show, and with \"Rating with quotes\", the reviews themselves, scrolling sideways when there are more than 3."
+        ],
+        "where": "/reviews"
+      },
+      "print": {
+        "title": "Posters, flyers and cards",
+        "points": [
+          "Settings › Print materials makes counter cards, posters, a window poster, flyers, a square sticker and business cards with your QR code, in A sizes or US sizes.",
+          "Pick a design (Photo, Logo or Simple), what the QR is for (save you in their phone, book, or leave a Google review) and what to show (hours, address, phone, WhatsApp, offer…).",
+          "They're made from your current logo, cover photo, colours and fonts: change them anytime and download again.",
+          "\"Download PDF for printing\" gives the exact size with 3 mm bleed and crop marks, ready for any print shop. The picture (PNG) is for WhatsApp or Instagram."
+        ],
+        "where": "/settings/business"
+      },
+      "todo": {
+        "title": "Tasks",
+        "points": [
+          "Today shows what needs you now: visits to close, requests, reviews, clients due back and your own to-dos.",
+          "A card goes away when its work is done. \"Later\" hides it until tomorrow.",
+          "Close visits from the card in one tap: paid, didn't come, or change. Closed visits get the thank-you and the review ask, and count in Finances.",
+          "Add your own to-dos, for you only or for the team, from a given day.",
+          "Tasks are on Today: \"See all\" at the bottom of the card opens every task (Now, Coming up, Put off, Done in the last 30 days). The number next to Today is what needs you now."
+        ],
+        "where": ""
+      },
+      "assistant": {
+        "title": "Your assistant (AI package)",
+        "points": [
+          "It writes for you, with \"Write it for me\" on each page: personal invites (Invite clients), replies to reviews (Reviews), service descriptions (Services, open a service) and your website's About text (Website, About). You read and change each text before you send or save it.",
+          "Ask it about your salon (\"How did this month go?\", \"Who hasn't come since summer?\"). It answers from your own data and shows where to act. It never changes anything.",
+          "It writes in your communication style (Informal, Professional or Formal) and the way people speak in your country.",
+          "It runs in your salon's own private space. No other salon can use it or see what it writes.",
+          "Each month has an allowance. You see the % left, and a To do card warns you at 80%. When it's used up, it rests until the 1st and everything else works as usual."
+        ],
+        "where": "/settings/assistant"
+      }
+    },
+    "hosted": {
+      "title": "More on hosted Statio",
+      "intro": "Statio Core is the free, open-source part of Statio. These come with Statio, hosted for you, together with updates and support.",
+      "tag": "Hosted",
+      "cta": "See Statio",
+      "move": "How to move"
+    },
+    "guide": "Step-by-step setup guide"
+  },
+  "site": {
+    "skip": "Skip to content",
+    "book": "Book now",
+    "bookWith": "Book with {name}",
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "directions": "Get directions",
+    "offerAll": "Every service",
+    "offerUntil": "until {date}",
+    "referral": "Recommend us to a friend: they'll get {pct}% off their first visit.",
+    "services": "Services & prices",
+    "otherServices": "Other services",
+    "count": "{n, plural, one {# service} other {# services}}",
+    "from": "from {price}",
+    "minutes": "{min} min",
+    "hoursOnly": "{h} h",
+    "hoursMinutes": "{h} h {min} min",
+    "team": "Our team",
+    "about": "About us",
+    "ratingOutOf": "Rated {rating} out of 5",
+    "faq": "Questions",
+    "hours": "Opening hours",
+    "closedDays": "Closed days coming up",
+    "contact": "Contact",
+    "taxId": "Tax / VAT no. {id}",
+    "privacy": "This website uses no tracking or advertising cookies. The details you give when booking are used by {salon} only to manage your appointments.",
+    "badge": "Website by Statio CRM",
+    "madeBy": "created by aioperants.com",
+    "gallery": "Our work",
+    "aboutMe": "About me",
+    "galleryMe": "My work",
+    "weComeTo": "We come to you · {area}",
+    "formTitle": "Send us a message",
+    "formHint": "For questions. To book, use Book now: it’s quicker.",
+    "formName": "Your name",
+    "formContact": "Your email or phone",
+    "formMessage": "Your message",
+    "formSend": "Send message",
+    "formSent": "Thank you, your message has been sent. We’ll get back to you soon.",
+    "formError": "Your message couldn’t be sent. Please call us, or try again later.",
+    "formLimit": "Too many messages for now. Please try again later or call us.",
+    "formPrivacy": "{salon} receives your message only to answer you, and it’s deleted after 90 days.",
+    "formPrivacyLink": "Privacy",
+    "emailFrom": "{salon} website",
+    "emailSubject": "New message from your website: {name}",
+    "emailIntro": "{name} sent a message through the {salon} website:",
+    "emailContact": "Contact: {contact}",
+    "emailReply": "Reply to this email to answer them.",
+    "emailCall": "They left a phone number: call or message them to answer.",
+    "bookThis": "Book this",
+    "openPhoto": "Open photo",
+    "closePhoto": "Close",
+    "moreOnInstagram": "See more on Instagram",
+    "openIn": "Or open in",
+    "shopNote": "Reserve now, pick up and pay at your next visit.",
+    "reserve": "Reserve",
+    "reserveSend": "Reserve to pick up",
+    "reserveOrBook": "Booking a visit? You can add it there.",
+    "reserveSent": "Reserved. We'll have it ready for you to pick up and pay for in the salon.",
+    "outOfStock": "Out of stock",
+    "featured": "Featured",
+    "menu": "Menu",
+    "menuClose": "Close the menu",
+    "menuHours": "Hours & location",
+    "reviewReply": "{salon} replied:",
+    "referralFriend": "off your friend's first visit"
+  },
+  "readiness": {
+    "title": "Your business is {percent}% ready",
+    "items": {
+      "design": "Add your photos and design your website",
+      "services": "Add your services with prices",
+      "hours": "Set your opening hours",
+      "team": "Invite your team",
+      "rules": "Check your booking rules",
+      "website": "Publish your website",
+      "google": "Get found on Google",
+      "logoRecommended": "Optional: add your logo for your booking page and app icon"
+    }
+  },
+  "pictures": {
+    "addCover": "Add cover photo",
+    "changeCover": "Change cover photo",
+    "addLogo": "Add logo",
+    "changeLogo": "Change logo",
+    "icon": "App icon",
+    "close": "Close",
+    "camera": "Take a photo",
+    "choose": "Choose a photo",
+    "working": "Working on it…",
+    "error": "That picture couldn't be used. Try another one.",
+    "coverTitle": "Cover photo",
+    "logoTitle": "Your logo",
+    "logoHint": "On your website, booking page and app icon.",
+    "cameraLogoHint": "A photo of your card or sign: we cut out the logo.",
+    "useName": "Use my business name",
+    "looksRight": "Looks right?",
+    "useIt": "Use it",
+    "tryAgain": "Try again",
+    "redraw": "Not right? Ask our team to redraw it",
+    "iconTitle": "App icon",
+    "iconHint": "Your app icon and on Google. Square, at least 512 × 512 px. Made from your initials (or your logo, with “Logo and text”) unless you choose your own.",
+    "iconNow": "Made from your initials unless you choose your own.",
+    "fromLogo": "Adjust from my logo",
+    "iconAuto": "Use my initials automatically",
+    "adjust": "Drag to move, and zoom to fit the square.",
+    "zoom": "Zoom",
+    "cancel": "Cancel",
+    "coverSize": "Landscape · at least 1500 × 900 px",
+    "logoSize": "PNG or SVG, or a photo of your card or sign",
+    "iconSize": "Square · at least 512 × 512 px",
+    "teamPhoto": "Photo",
+    "teamSize": "600 × 600 px",
+    "teamTitle": "Team photo",
+    "teamHint": "Plain background, good light. Square, head and shoulders, at least 600 × 600 px.",
+    "small": "Saved. This photo is small and may look blurry: a bigger one will look sharper.",
+    "done": "Done",
+    "smallBefore": "This picture is small and may look blurry. A bigger one will look sharper.",
+    "device": "Show as",
+    "phone": "Phone",
+    "computer": "Computer",
+    "change": "Change",
+    "addLogoOptional": "Add logo (optional)",
+    "coverSizeSplit": "Portrait · at least 1000 × 1250 px",
+    "required": "Required for this design",
+    "optional": "Optional",
+    "flyer": "This looks like a flyer or a photo. A logo is usually just your name or symbol: try a photo of your sign or card instead.",
+    "iconNowLogo": "Made from your logo unless you choose your own.",
+    "iconAutoLogo": "Make it from my logo automatically"
+  },
+  "data": {
+    "title": "Download data",
+    "intro": "Your data is yours. Download it as spreadsheets (CSV, opens in Excel, Numbers or Google Sheets) whenever you like.",
+    "clients": {
+      "name": "Clients",
+      "what": "Names, emails, phones, notes and tags"
+    },
+    "bookings": {
+      "name": "Bookings",
+      "what": "Every visit: when, who, with whom, price and status"
+    },
+    "services": {
+      "name": "Services",
+      "what": "Your services, their length and prices"
+    },
+    "all": {
+      "name": "Download everything",
+      "what": "One ZIP file: clients, visits, services, team, takings, your website and photos. Spreadsheets for Excel, plus a full copy to move to another Statio."
+    }
+  },
+  "recovery": {
+    "signInLink": "Owner and lost access to your email?",
+    "title": "Lost access to your email?",
+    "intro": "If you're the owner and added a second email, we'll send it a link that moves your sign-in there.",
+    "email": "Your second email",
+    "emailHint": "The one you added in More › Sign-in & security.",
+    "send": "Send me the link",
+    "errorEmail": "Check the email address.",
+    "sentTitle": "Check that inbox",
+    "sentHint": "If it's the owner's second email, a link is on its way. It works for 30 minutes; look in spam too.",
+    "noSecond": "No second email, or lost it too? Write to us and we'll help you after checking it's really you.",
+    "confirmTitle": "Confirm your second email",
+    "confirmIntro": "Use {email} to get back into {salon} if you ever lose your main email.",
+    "confirmButton": "Confirm",
+    "confirmed": "Done. This email can now get you back in.",
+    "moveTitle": "Sign in with this email from now on",
+    "moveIntro": "The owner's sign-in for {salon} moves to {email}. The old email is signed out and told.",
+    "moveButton": "Move my sign-in and open the app",
+    "expired": "This link has expired or was already used. Ask for a new one."
+  },
+  "siteDrafts": {
+    "kind": {
+      "barbershop": "a barbershop",
+      "hair": "a hair salon",
+      "nails": "a nail salon",
+      "aesthetics": "a beauty salon",
+      "spa": "a spa",
+      "laser": "a laser hair removal clinic"
+    },
+    "about": {
+      "town": "{name} is {kind} in {town}.",
+      "noTown": "{name} is {kind}.",
+      "since": "We opened in {year}.",
+      "known": "We're known for {known}.",
+      "love": "What our clients value most: {love}.",
+      "end": "Book online whenever it suits you."
+    },
+    "faq": {
+      "book": {
+        "q": "How do I book?",
+        "a": "Online, at any time: tap Book, choose a service and a time that suits you."
+      },
+      "cancel": {
+        "q": "Can I change or cancel my appointment?",
+        "a": "Yes, up to {hours} hours before, with the link in your confirmation email."
+      },
+      "pay": {
+        "q": "How can I pay?"
+      },
+      "parking": {
+        "q": "Is there parking nearby?"
+      },
+      "gift": {
+        "q": "Do you sell gift cards?"
+      },
+      "barbershop": [
+        {
+          "q": "Do you take walk-ins?"
+        },
+        {
+          "q": "Do you do beard trims?"
+        }
+      ],
+      "hair": [
+        {
+          "q": "Do I need a consultation before colouring?"
+        },
+        {
+          "q": "Which products do you use?"
+        }
+      ],
+      "nails": [
+        {
+          "q": "How long does gel polish last?"
+        },
+        {
+          "q": "Can you remove gel done elsewhere?"
+        }
+      ],
+      "aesthetics": [
+        {
+          "q": "How should I prepare for my treatment?"
+        },
+        {
+          "q": "Is the treatment painful?"
+        }
+      ],
+      "spa": [
+        {
+          "q": "What should I bring?"
+        },
+        {
+          "q": "How early should I arrive?"
+        }
+      ],
+      "laser": [
+        {
+          "q": "How many sessions will I need?"
+        },
+        {
+          "q": "Should I shave before my session?"
+        },
+        {
+          "q": "Can I go in the sun before or after?"
+        },
+        {
+          "q": "Is it suitable for my skin and hair type?"
+        }
+      ]
+    }
+  },
+  "contactCard": {
+    "meta": "Save {salon} in your phone and book your next visit.",
+    "save": "Add to my contacts",
+    "book": "Book a visit",
+    "call": "Call",
+    "hint": "Saving us adds our phone, address and booking link to your contacts."
+  },
+  "push": {
+    "owner_new": "New booking",
+    "owner_request": "Booking request to approve",
+    "owner_cancelled": "Visit cancelled",
+    "owner_moved": "Visit moved",
+    "morningTitle": "Your day",
+    "visitsToday": "{count, plural, one {# visit today} other {# visits today}}",
+    "closeTitle": "{count, plural, one {Close today's visit} other {Close # visits from today}}",
+    "testTitle": "Notifications are on",
+    "testBody": "This is how new requests and your daily notes will arrive."
+  }
+}

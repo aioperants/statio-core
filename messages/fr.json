@@ -1,0 +1,646 @@
+{
+  "common": {
+    "back": "Retour",
+    "next": "Continuer",
+    "save": "Enregistrer",
+    "saved": "Enregistré",
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "add": "Ajouter",
+    "search": "Rechercher",
+    "loading": "Chargement…",
+    "yes": "Oui",
+    "no": "Non",
+    "minutes": "{min} min",
+    "language": "Langue",
+    "error": "Une erreur s'est produite. Veuillez réessayer.",
+    "notAllowed": "Vous n'avez pas accès à cette page.",
+    "signOut": "Se déconnecter",
+    "today": "Aujourd'hui",
+    "tomorrow": "Demain",
+    "optional": "facultatif",
+    "everyDay": "Tous les jours",
+    "daysCount": "{count, plural, one {# jour} other {# jours}}"
+  },
+  "status": {
+    "pending": "En attente de validation",
+    "confirmed": "Confirmé",
+    "completed": "Terminé",
+    "cancelled": "Annulé",
+    "declined": "Refusé",
+    "no_show": "Absent"
+  },
+  "book": {
+    "title": "Prendre rendez-vous",
+    "chooseServices": "Que souhaitez-vous ?",
+    "selected": "{count, plural, one {# prestation} other {# prestations}} · {duration} min · {price}",
+    "chooseStaff": "Avec qui ?",
+    "anyone": "Sans préférence",
+    "anyoneHint": "Nous chercherons la première personne disponible",
+    "chooseTime": "Choisissez le jour et l'heure",
+    "otherDay": "Un autre jour",
+    "noSlots": "Aucun créneau disponible ce jour-là. Essayez un autre jour.",
+    "morning": "Matin",
+    "afternoon": "Après-midi",
+    "evening": "Soir",
+    "with": "avec {name}",
+    "signInTitle": "Connectez-vous pour confirmer",
+    "signInWhy": "Tout le monde se connecte une première fois pour garantir de vraies réservations. La prochaine fois, un clic suffira.",
+    "signIn": "Se connecter",
+    "signedInAs": "Connecté en tant que {email}",
+    "notYou": "Ce n'est pas vous ?",
+    "yourDetails": "Vos coordonnées",
+    "name": "Votre nom",
+    "phone": "Numéro de portable",
+    "phoneHint": "Pour que {salon} puisse vous prévenir en cas d'imprévu",
+    "forSomeoneElse": "Je réserve pour quelqu'un d'autre",
+    "theirName": "Son nom",
+    "notes": "Une précision pour {salon} ?",
+    "confirm": "Confirmer le RDV",
+    "request": "Envoyer la demande",
+    "requestHint": "{salon} confirme les nouveaux clients par e-mail.",
+    "doneTitle": "Rendez-vous confirmé !",
+    "doneRequestTitle": "Demande envoyée",
+    "doneBody": "Nous avons envoyé les détails à {email}.",
+    "doneRequestBody": "{salon} confirmera votre demande très vite. Vous recevrez un e-mail à {email}.",
+    "manage": "Voir ou annuler",
+    "bookAnother": "Prendre un autre RDV",
+    "closed": "La réservation en ligne n'est pas encore ouverte.",
+    "errors": {
+      "slot_unavailable": "Désolé, ce créneau vient d'être réservé. Veuillez en choisir un autre.",
+      "blocked": "La réservation en ligne n'est pas disponible pour votre compte. Veuillez appeler {salon}.",
+      "too_many_bookings": "Vous avez déjà des rendez-vous à venir. Veuillez appeler {salon} pour en réserver d'autres.",
+      "not_set_up": "La réservation en ligne n'est pas encore ouverte.",
+      "bot": "Veuillez compléter la vérification ci-dessus.",
+      "sign_in": "Veuillez d'abord vous connecter.",
+      "invalid": "Veuillez vérifier les informations et réessayer.",
+      "outside_hours": "Ce créneau est en dehors des horaires d'ouverture. Choisissez une autre heure."
+    },
+    "otherServices": "Autres",
+    "personalPercent": "−{pct} %",
+    "addCalendar": "Ajouter à mon agenda",
+    "addGoogle": "Google Agenda",
+    "calendarHint": "Votre téléphone vous enverra un rappel la veille.",
+    "questions": {
+      "intro": "Deux petites questions facultatives pour mieux vous connaître.",
+      "heard": "Comment nous avez-vous connus ?",
+      "who": "Qui vous a recommandé notre adresse ?",
+      "city": "Où habitez-vous ?"
+    },
+    "metaTitle": "{salon} · Réserver en ligne",
+    "metaDescription": "Prenez rendez-vous en ligne chez {salon} en une minute. {address}",
+    "info": {
+      "hours": "Horaires d'ouverture",
+      "call": "Appeler"
+    },
+    "recommended": "Créneaux recommandés",
+    "allTimes": "Tous les horaires",
+    "byService": "Par prestation",
+    "byPro": "Par collaborateur",
+    "choosePro": "Avec qui souhaitez-vous prendre rendez-vous ?",
+    "withPro": "Avec",
+    "changePro": "Modifier",
+    "bookAgain": "Reprendre RDV",
+    "nextFree": "Prochaine dispo : {day} à {time}",
+    "summary": {
+      "when": "Quand",
+      "price": "Tarif",
+      "where": "Où",
+      "cancel": "Annulation ou modification gratuite jusqu'à {hours, plural, one {# heure} other {# heures}} avant.",
+      "cancelAny": "Vous pouvez annuler ou modifier à tout moment avant votre rendez-vous."
+    },
+    "consent": {
+      "title": "Test d'allergie",
+      "text": "Je confirme avoir fait une touche d'essai pour ces produits au cours des 6 derniers mois, ou venir en faire une au moins 48 heures avant le rendez-vous, et je signalerai toute allergie ou réaction à {salon}."
+    },
+    "paused": "La réservation en ligne est indisponible pour le moment. Veuillez contacter {salon} directement.",
+    "onlyUntil": "La réservation en ligne est ouverte jusqu'au {date} pour le moment. Pour une date ultérieure, veuillez contacter {salon}.",
+    "pausedCall": "Appeler le {phone}"
+  },
+  "signin": {
+    "title": "Se connecter",
+    "subtitle": "pour réserver et gérer vos rendez-vous",
+    "google": "Continuer avec Google",
+    "microsoft": "Continuer avec Microsoft",
+    "or": "ou",
+    "email": "E-mail",
+    "sendLink": "Recevoir un lien de connexion par e-mail",
+    "linkSent": "Vérifiez vos e-mails",
+    "linkSentBody": "Nous avons envoyé un lien de connexion à {email}. Ouvrez-le sur cet appareil.",
+    "done": "Vous êtes connecté. Vous pouvez fermer cette fenêtre.",
+    "staffHint": "Équipe : connectez-vous avec l'e-mail utilisé lors de votre ajout.",
+    "staffSubtitle": "à l'espace équipe",
+    "password": "Mot de passe",
+    "signInButton": "Se connecter",
+    "wrongPassword": "E-mail ou mot de passe incorrect.",
+    "usePassword": "Se connecter avec mon mot de passe",
+    "useLink": "Recevoir plutôt un lien par e-mail",
+    "socialFailed": "La connexion a échoué. Réessayez ou recevez un lien de connexion par e-mail.",
+    "staffSubtitleName": "à {salon}",
+    "staffHintName": "Équipe : connectez-vous avec l'e-mail utilisé par {salon} pour vous ajouter."
+  },
+  "manage": {
+    "title": "Votre rendez-vous",
+    "cancel": "Annuler le rendez-vous",
+    "cancelConfirm": "Annuler ce rendez-vous ?",
+    "cancelled": "Votre rendez-vous a été annulé.",
+    "tooLate": "Votre rendez-vous a lieu dans moins de {hours} heures. Veuillez appeler {salon} pour annuler.",
+    "bookAgain": "Réserver à nouveau",
+    "notFound": "Rendez-vous introuvable.",
+    "call": "Appeler {salon}",
+    "change": "Changer le jour ou l'heure",
+    "changeTitle": "Choisir un autre créneau",
+    "samePerson": "Avec {name}",
+    "anyone": "Premier disponible",
+    "confirmChange": "Choisir ce créneau",
+    "changed": "C'est fait ! Votre rendez-vous a été modifié. Nous vous avons envoyé les détails par e-mail.",
+    "back": "Retour à mon rendez-vous",
+    "staffOff": "Désolé, {name} n'est pas disponible ce jour-là. Choisissez un autre créneau ou annulez sans souci."
+  },
+  "heard": {
+    "recommended": "Recommandé par un proche",
+    "social": "Instagram / réseaux sociaux",
+    "google": "Google / Maps",
+    "walkby": "En passant devant",
+    "other": "Autre",
+    "question": "Nous a connus par",
+    "who": "Recommandé par",
+    "whoHint": "Si un proche vous a recommandé.",
+    "city": "Ville ou commune",
+    "cityHint": "Son lieu de résidence : distingue les habitants des clients de passage.",
+    "summary": "D'où viennent les nouveaux clients · 90 derniers jours ({count})",
+    "unknown": "Non renseigné",
+    "towns": "Où ils habitent",
+    "guests": "{count, plural, one {# RDV} other {# RDV}} de passage sans fiche client (hors liste)",
+    "settingsTitle": "Questions aux nouveaux clients",
+    "settingsHint": "Posées une seule fois, lors de la première réservation en ligne. Répondre reste toujours facultatif. Vous verrez les réponses sur chaque fiche client et un résumé dans Clients.",
+    "askHeard": "Demander « Comment nous avez-vous connus ? »",
+    "askHint": "Le lien de parrainage d'un proche y répond automatiquement.",
+    "answers": "Choix de réponses",
+    "ownAnswers": "Vos propres réponses",
+    "ownAnswersHint": "Séparées par des virgules, ex. Flyer, Radio locale. Dans la langue de vos clients.",
+    "askCity": "Demander « Où habitez-vous ? »",
+    "askCityHint": "Indique combien de clients sont des locaux et combien sont de passage."
+  },
+  "recovery": {
+    "signInLink": "Vous êtes le propriétaire et n'avez plus accès à votre e-mail ?",
+    "title": "Vous n'avez plus accès à votre e-mail ?",
+    "intro": "Si vous êtes le propriétaire et avez ajouté un deuxième e-mail, nous allons y envoyer un lien pour y transférer votre connexion.",
+    "email": "Votre deuxième e-mail",
+    "emailHint": "Celui que vous avez ajouté dans Plus › Connexion et sécurité.",
+    "send": "M'envoyer le lien",
+    "errorEmail": "Vérifiez l'adresse e-mail.",
+    "sentTitle": "Vérifiez cette boîte de réception",
+    "sentHint": "S'il s'agit bien du deuxième e-mail du propriétaire, un lien vient de partir. Il est valable 30 minutes ; pensez à vérifier vos spams.",
+    "noSecond": "Pas de deuxième e-mail, ou vous n'y avez plus accès non plus ? Écrivez-nous et nous vous aiderons après avoir vérifié votre identité.",
+    "confirmTitle": "Confirmez votre deuxième e-mail",
+    "confirmIntro": "Utilisez {email} pour récupérer l'accès à {salon} si vous perdez un jour votre e-mail principal.",
+    "confirmButton": "Confirmer",
+    "confirmed": "Terminé. Cet e-mail vous permet désormais de récupérer votre accès.",
+    "moveTitle": "Connectez-vous avec cet e-mail à partir de maintenant",
+    "moveIntro": "L'accès propriétaire pour {salon} passe sur {email}. L'ancien e-mail est déconnecté et prévenu.",
+    "moveButton": "Transférer mon accès et ouvrir l'appli",
+    "expired": "Ce lien a expiré ou a déjà été utilisé. Demandez-en un nouveau."
+  },
+  "site": {
+    "skip": "Aller au contenu",
+    "book": "Prendre RDV",
+    "bookWith": "Prendre RDV avec {name}",
+    "call": "Appeler",
+    "whatsapp": "WhatsApp",
+    "email": "E-mail",
+    "directions": "Itinéraire",
+    "offerAll": "Toutes les prestations",
+    "offerUntil": "jusqu'au {date}",
+    "referral": "Recommandez-nous à un proche : il bénéficiera de -{pct} % sur son premier RDV.",
+    "services": "Prestations et tarifs",
+    "otherServices": "Autres prestations",
+    "count": "{n, plural, one {# prestation} other {# prestations}}",
+    "from": "dès {price}",
+    "minutes": "{min} min",
+    "hoursOnly": "{h} h",
+    "hoursMinutes": "{h} h {min} min",
+    "team": "Notre équipe",
+    "about": "À propos",
+    "ratingOutOf": "Noté {rating} sur 5",
+    "faq": "Questions fréquentes",
+    "hours": "Horaires d'ouverture",
+    "closedDays": "Prochains jours de fermeture",
+    "contact": "Contact",
+    "taxId": "SIRET / TVA {id}",
+    "privacy": "Ce site web n'utilise aucun cookie de suivi ou publicitaire. Les informations saisies lors de la réservation sont utilisées par {salon} uniquement pour gérer vos rendez-vous.",
+    "badge": "Site web par Statio CRM",
+    "gallery": "Nos réalisations",
+    "aboutMe": "À propos",
+    "galleryMe": "Mes réalisations",
+    "weComeTo": "À domicile · {area}",
+    "formTitle": "Nous écrire",
+    "formHint": "Pour vos questions. Pour réserver, cliquez sur Prendre RDV : c’est plus rapide.",
+    "formName": "Votre nom",
+    "formContact": "Votre e-mail ou téléphone",
+    "formMessage": "Votre message",
+    "formSend": "Envoyer le message",
+    "formSent": "Merci, votre message a bien été envoyé. Nous vous répondrons très vite.",
+    "formError": "Votre message n’a pas pu être envoyé. Veuillez nous appeler ou réessayer plus tard.",
+    "formLimit": "Trop de messages envoyés. Veuillez réessayer plus tard ou nous appeler.",
+    "formPrivacy": "{salon} reçoit votre message uniquement pour vous répondre, et il est supprimé après 90 jours.",
+    "formPrivacyLink": "Confidentialité",
+    "emailFrom": "Site web de {salon}",
+    "emailSubject": "Nouveau message depuis votre site web : {name}",
+    "emailIntro": "{name} a envoyé un message depuis le site web de {salon} :",
+    "emailContact": "Contact : {contact}",
+    "emailReply": "Répondez à cet e-mail pour lui écrire.",
+    "emailCall": "Cette personne a laissé un numéro : appelez-la ou envoyez-lui un SMS pour lui répondre.",
+    "bookThis": "Réserver",
+    "openPhoto": "Ouvrir la photo",
+    "closePhoto": "Fermer",
+    "moreOnInstagram": "Voir plus sur Instagram",
+    "openIn": "Ou ouvrir dans",
+    "shopNote": "Réservez maintenant, récupérez et payez lors de votre prochain RDV.",
+    "reserve": "Réserver",
+    "reserveSend": "Réserver et récupérer au salon",
+    "reserveOrBook": "Vous prenez RDV ? Vous pourrez l'ajouter lors de la réservation.",
+    "outOfStock": "Rupture de stock",
+    "featured": "En vedette",
+    "menu": "Menu",
+    "menuClose": "Fermer le menu",
+    "menuHours": "Horaires et accès",
+    "reviewReply": "Réponse de {salon} :",
+    "referralFriend": "sur le premier RDV de votre ami(e)",
+    "madeBy": "créé par aioperants.com"
+  },
+  "emails": {
+    "details": "{services}\n{day}, {time} · {staff}\n{price}",
+    "manage": "Voir ou annuler : {link}",
+    "confirmed": {
+      "subject": "RDV confirmé : {day} à {time}",
+      "body": "Bonjour {name}, votre RDV chez {salon} est confirmé."
+    },
+    "requested": {
+      "subject": "Demande de RDV reçue : {day} à {time}",
+      "body": "Bonjour {name}, merci pour votre demande. {salon} vous la confirmera rapidement par e-mail."
+    },
+    "approved": {
+      "subject": "RDV confirmé : {day} à {time}",
+      "body": "Bonne nouvelle {name}, {salon} a confirmé votre RDV."
+    },
+    "declined": {
+      "subject": "Créneau indisponible : {day} à {time}",
+      "body": "Bonjour {name}, désolé, {salon} ne peut pas accepter ce RDV. Appelez-nous ou choisissez un autre horaire."
+    },
+    "cancelled_by_salon": {
+      "subject": "RDV annulé : {day} à {time}",
+      "body": "Bonjour {name}, {salon} a dû annuler votre RDV. Contactez-nous pour convenir d'un nouvel horaire."
+    },
+    "moved": {
+      "subject": "RDV déplacé : {day} à {time}",
+      "body": "Bonjour {name}, {salon} a déplacé votre RDV. Voici les nouveaux détails."
+    },
+    "owner_new": {
+      "subject": "Nouveau RDV : {name}, {day} {time}",
+      "body": "{name} a réservé en ligne."
+    },
+    "owner_request": {
+      "subject": "À valider : {name}, {day} {time}",
+      "body": "{name} a envoyé une demande de RDV. Validez-la ou refusez-la dans l'appli : {admin}"
+    },
+    "owner_cancelled": {
+      "subject": "Annulé : {name}, {day} {time}",
+      "body": "{name} a annulé en ligne."
+    },
+    "comeback": {
+      "subject": "Bientôt un nouveau RDV chez {salon} ?",
+      "body": "Bonjour {name}, cela fait un moment depuis votre dernière visite chez {salon}. Réservez votre prochain RDV quand vous le souhaitez : {link}"
+    },
+    "whatsappReminder": "Bonjour {name} ! Petit rappel de votre RDV chez {salon} : {day} à {time} ({services}). À très vite ! Pour modifier ou annuler : {link}",
+    "whatsappComeBack": "Bonjour {name} ! C'est {salon}. Cela fait un moment depuis votre dernière visite. On réserve votre prochain RDV ? Choisissez votre créneau ici : {link}",
+    "whatsappComeBackSoon": "Bonjour {name} ! C'est {salon}. Il est bientôt temps de prévoir votre prochaine visite. On vous garde un créneau ? Choisissez votre horaire ici : {link}",
+    "rescheduled": {
+      "subject": "RDV modifié : {day} à {time}",
+      "body": "Bonjour {name}, nous avons modifié votre RDV chez {salon} comme demandé. Voici les nouveaux détails."
+    },
+    "owner_moved": {
+      "subject": "Horaire modifié : {name}, {day} {time}",
+      "body": "{name} a déplacé son RDV en ligne. Nouvel horaire :"
+    },
+    "staffOff": {
+      "subject": "{staff} est absent(e) : {days}",
+      "body": "{staff} a prévenu de son absence : {days}.\n\n{count, plural, =0 {Aucun RDV prévu ces jours-là.} one {Il y a # RDV à replanifier (le confier à quelqu'un d'autre, prévenir le client ou annuler) :} other {Il y a # RDV à replanifier (les confier à quelqu'un d'autre, prévenir les clients ou annuler) :}}\n{link}"
+    },
+    "whatsappStaffOff": "Bonjour {name} ! C'est {salon}. Nous sommes désolés, {staff} ne pourra pas vous recevoir le {day} à {time}. Un autre créneau vous conviendrait-il ? Choisissez-le ici : {link}",
+    "personalOffer": {
+      "subject": "Une attention pour votre prochaine visite chez {salon}",
+      "body": "Bonjour {name}, merci de votre confiance envers {salon}. Pour votre prochaine visite, nous avons prévu quelque chose pour vous : {what}. Valable jusqu'au {until}. Réservez ici : {link}",
+      "percent": "-{pct} %",
+      "and": " et ",
+      "optOut": "Vous ne souhaitez plus recevoir ce type de message ? {link}"
+    },
+    "cancelled_by_client": {
+      "subject": "RDV annulé : {day} à {time}",
+      "body": "Bonjour {name}, votre RDV chez {salon} a bien été annulé, comme vous l'avez demandé. À très bientôt !"
+    },
+    "calendarLink": "Ajouter à votre agenda : {link}",
+    "whatsappWelcome": "Bonjour {name} ! Bienvenue chez {salon}, nous sommes ravis de votre réservation. Nous vous attendons le {day} à {time} avec {staff} ({services}). Pour modifier ou annuler : {link}",
+    "whatsappWelcomeVisit": "Nous vous attendons le {day} à {time} avec {staff} ({services}). Pour modifier ou annuler : {link}",
+    "whatsappBirthday": "Joyeux anniversaire, {name} ! Toute l'équipe de {salon} vous souhaite une très belle journée. Offrez-vous un moment pour vous, nous serions ravis de vous accueillir : {link}",
+    "staffInvite": {
+      "subject": "{salon} : votre accès à l'application",
+      "body": "Bonjour {name},\n\n{salon} vous invite sur l'application de l'équipe pour consulter votre agenda et vos RDV depuis votre téléphone.\n\nVotre lien personnel (valable {days} jours) : {link}"
+    },
+    "offerShare": "{salon} : −{pct} % sur {name}\n{when}, jusqu'au {until}.\nRéservez ici : {link}",
+    "offerShareEveryDay": "Tous les jours",
+    "inviteLink": "Bonjour {name} ! Recommandez {salon} à vos proches : ils profitent de −{friendPct} % sur leur première visite, et vous de −{rewardPct} % sur votre prochain RDV après leur venue. Votre lien personnel à partager : {link}",
+    "staffLink": "Réservez votre prochain RDV avec {name} chez {salon} : {link}",
+    "recovery": {
+      "confirm": {
+        "subject": "Confirmez votre deuxième e-mail pour {salon}",
+        "body": "Bonjour,\n\nLe responsable de {salon} souhaite utiliser cet e-mail pour récupérer son accès en cas de perte de son adresse principale. Pour confirmer, ouvrez ce lien (valable {hours} heures) :\n\n{link}\n\nSi vous n'êtes pas à l'origine de cette demande, ignorez cet e-mail : rien ne changera.\n\nStatio CRM"
+      },
+      "added": {
+        "subject": "Un deuxième e-mail a été ajouté à {salon}",
+        "body": "Bonjour,\n\nL'adresse {email} permet désormais de récupérer votre accès à {salon} si vous perdez cet e-mail.\n\nSi vous n'êtes pas à l'origine de cette action, connectez-vous immédiatement, allez dans Plus › Connexion et sécurité, supprimez cette adresse et déconnectez tous les autres appareils. Écrivez-nous ensuite.\n\nStatio CRM"
+      },
+      "removed": {
+        "subject": "Le deuxième e-mail a été supprimé de {salon}",
+        "body": "Bonjour,\n\nL'adresse {email} ne peut plus être utilisée pour récupérer l'accès à {salon}.\n\nSi vous n'êtes pas à l'origine de cette action, connectez-vous immédiatement, allez dans Plus › Connexion et sécurité et déconnectez tous les autres appareils. Écrivez-nous ensuite.\n\nStatio CRM"
+      },
+      "link": {
+        "subject": "Récupérez votre accès à {salon}",
+        "body": "Bonjour,\n\nVous avez demandé à récupérer l'accès à {salon} avec cet e-mail. Ouvrez ce lien pour y transférer votre connexion (valable {minutes} minutes) :\n\n{link}\n\nSi vous n'êtes pas à l'origine de cette demande, ignorez cet e-mail : rien ne changera.\n\nStatio CRM"
+      },
+      "moved": {
+        "subject": "Votre accès à {salon} a changé d'adresse",
+        "body": "Bonjour,\n\nL'accès du responsable de {salon} a été transféré vers {email}. Cette adresse ne permet plus de s'y connecter et toutes ses sessions ont été fermées.\n\nSi vous n'êtes pas à l'origine de cette action, écrivez-nous immédiatement en répondant à cet e-mail.\n\nStatio CRM"
+      },
+      "support": {
+        "subject": "Vous pouvez vous connecter à {salon} avec cet e-mail",
+        "body": "Bonjour,\n\nComme vous nous l'avez demandé, l'accès du responsable de {salon} est désormais associé à cet e-mail. Ouvrez votre page de connexion pour recevoir un lien d'accès. Ajoutez ensuite un deuxième e-mail dans Plus › Connexion et sécurité.\n\nStatio CRM"
+      }
+    },
+    "pickUp": "À récupérer lors de votre RDV : {items} ({total}, règlement sur place).",
+    "greeting": "Bonjour {name} !",
+    "welcomeDefault": "Bienvenue ! Nous sommes ravis que vous ayez réservé chez nous.",
+    "whatsappFillGap": "Bonjour {name} ! C'est {salon}. Un créneau s'est libéré {when} avec {staff}. Cela vous intéresse ? Réservez ce créneau ou un autre ici : {link}"
+  },
+  "siteDrafts": {
+    "kind": {
+      "barbershop": "un barbershop",
+      "hair": "un salon de coiffure",
+      "nails": "un bar à ongles",
+      "aesthetics": "un institut de beauté",
+      "spa": "un spa",
+      "laser": "un centre d'épilation laser"
+    },
+    "about": {
+      "town": "{name} est {kind} à {town}.",
+      "noTown": "{name} est {kind}.",
+      "since": "Nous avons ouvert en {year}.",
+      "known": "Nous sommes reconnus pour {known}.",
+      "love": "Ce que nos clients apprécient le plus : {love}.",
+      "end": "Réservez en ligne quand vous le souhaitez."
+    },
+    "faq": {
+      "book": {
+        "q": "Comment prendre rendez-vous ?",
+        "a": "En ligne, à tout moment : appuyez sur Réserver, choisissez une prestation et le créneau qui vous convient."
+      },
+      "cancel": {
+        "q": "Puis-je modifier ou annuler mon rendez-vous ?",
+        "a": "Oui, jusqu'à {hours} heures à l'avance, via le lien dans votre e-mail de confirmation."
+      },
+      "pay": {
+        "q": "Quels sont les moyens de paiement acceptés ?"
+      },
+      "parking": {
+        "q": "Y a-t-il un parking à proximité ?"
+      },
+      "gift": {
+        "q": "Proposez-vous des cartes cadeaux ?"
+      },
+      "barbershop": [
+        {
+          "q": "Prenez-vous sans rendez-vous ?"
+        },
+        {
+          "q": "Faites-vous la taille de barbe ?"
+        }
+      ],
+      "hair": [
+        {
+          "q": "Faut-il faire un diagnostic avant une coloration ?"
+        },
+        {
+          "q": "Quels produits utilisez-vous ?"
+        }
+      ],
+      "nails": [
+        {
+          "q": "Combien de temps tient le vernis semi-permanent ?"
+        },
+        {
+          "q": "Faites-vous la dépose d'une pose faite ailleurs ?"
+        }
+      ],
+      "aesthetics": [
+        {
+          "q": "Comment me préparer avant mon soin ?"
+        },
+        {
+          "q": "Est-ce que le soin fait mal ?"
+        }
+      ],
+      "spa": [
+        {
+          "q": "Que dois-je apporter ?"
+        },
+        {
+          "q": "Combien de temps à l'avance dois-je arriver ?"
+        }
+      ],
+      "laser": [
+        {
+          "q": "De combien de séances aurai-je besoin ?"
+        },
+        {
+          "q": "Dois-je me raser avant ma séance ?"
+        },
+        {
+          "q": "Puis-je m'exposer au soleil avant ou après ?"
+        },
+        {
+          "q": "Est-ce adapté à mon type de peau et de poil ?"
+        }
+      ]
+    }
+  },
+  "templates": {
+    "types": {
+      "hair": "Salon de coiffure",
+      "barber": "Barbier / Barbershop",
+      "nails": "Bar à ongles / Prothésiste ongulaire",
+      "beauty": "Institut de beauté",
+      "spa": "Spa et massages",
+      "laser": "Épilation laser"
+    },
+    "typeHints": {
+      "hair": "Coupes, couleur, coiffage",
+      "barber": "Coupes, dégradés, barbe, rasage",
+      "nails": "Manucure, beauté des pieds, nail art",
+      "beauty": "Soins du visage, épilation, cils et sourcils",
+      "spa": "Massages, soins du visage, soins du corps",
+      "laser": "Zones visage, corps et homme, bilan"
+    },
+    "groups": {
+      "cuts": "Coupes",
+      "colour": "Couleur",
+      "styling": "Coiffage",
+      "treatments": "Soins",
+      "beard": "Barbe",
+      "shave": "Rasage",
+      "manicure": "Manucure",
+      "pedicure": "Beauté des pieds",
+      "nailArt": "Nail art",
+      "face": "Visage",
+      "waxing": "Épilation",
+      "lashesBrows": "Cils et sourcils",
+      "massage": "Massages",
+      "body": "Corps",
+      "consultation": "Bilan",
+      "men": "Homme"
+    },
+    "services": {
+      "womensCut": "Coupe et brushing femme",
+      "mensCut": "Coupe homme",
+      "kidsCut": "Coupe enfant",
+      "rootColour": "Coloration racines",
+      "highlights": "Mèches",
+      "blowDry": "Brushing",
+      "updo": "Chignon",
+      "hairTreatment": "Soin capillaire",
+      "haircut": "Coupe",
+      "fade": "Dégradé à blanc",
+      "beardTrim": "Taille de barbe",
+      "cutAndBeard": "Coupe et barbe",
+      "hotTowelShave": "Rasage à la serviette chaude",
+      "classicManicure": "Manucure classique",
+      "gelManicure": "Pose de vernis semi-permanent",
+      "acrylicSet": "Pose complète résine",
+      "infill": "Remplissage",
+      "spaPedicure": "Beauté des pieds spa",
+      "gelPedicure": "Pédicure semi-permanente",
+      "nailArt": "Nail art (les 10 doigts)",
+      "facial": "Soin du visage",
+      "browShape": "Restructuration des sourcils",
+      "lashLift": "Rehaussement de cils",
+      "legWax": "Épilation jambes complètes",
+      "bikiniWax": "Épilation maillot",
+      "massage": "Massage (60 min)",
+      "relaxMassage": "Massage relaxant",
+      "deepMassage": "Massage deep tissue",
+      "hotStones": "Massage aux pierres chaudes",
+      "bodyScrub": "Gommage corporel",
+      "laserConsultation": "Consultation et test",
+      "laserUpperLip": "Lèvre supérieure",
+      "laserFace": "Visage complet",
+      "laserUnderarms": "Aisselles",
+      "laserBikini": "Maillot classique",
+      "laserFullBikini": "Maillot intégral",
+      "laserArms": "Bras complets",
+      "laserHalfLegs": "Demi-jambes",
+      "laserFullLegs": "Jambes complètes",
+      "laserBack": "Dos",
+      "laserMenChestBack": "Torse et dos (homme)"
+    },
+    "stations": {
+      "stylingChair": "Fauteuil",
+      "basin": "Bac à shampoing",
+      "barberChair": "Fauteuil de barbier",
+      "nailDesk": "Table de manucure",
+      "pedicureChair": "Fauteuil de pédicure",
+      "treatmentRoom": "Cabine de soin"
+    }
+  },
+  "contactCard": {
+    "meta": "Enregistrez {salon} dans votre téléphone et réservez votre prochain RDV.",
+    "save": "Ajouter à mes contacts",
+    "book": "Prendre RDV",
+    "call": "Appeler",
+    "hint": "En nous enregistrant, notre téléphone, notre adresse et le lien de réservation s'ajoutent à vos contacts."
+  },
+  "admin": {
+    "newBooking": {
+      "title": "Nouveau RDV",
+      "client": "Client",
+      "search": "Nom, téléphone ou e-mail",
+      "newClient": "Ajouter un nouveau client",
+      "services": "Prestations",
+      "staff": "Avec",
+      "day": "Jour",
+      "time": "Heure",
+      "notify": "Envoyer un e-mail de confirmation au client",
+      "save": "Réserver",
+      "noSlots": " aucun créneau disponible ce jour-là",
+      "pickClient": "Choisissez d'abord un client",
+      "today": "Aujourd'hui",
+      "tomorrow": "Demain"
+    },
+    "walkin": {
+      "button": "Sans RDV",
+      "toggle": "Heure libre (sans RDV ou à intercaler)",
+      "hint": "Réserve à cette heure précise, même en dehors des horaires ou sur un autre RDV.",
+      "time": "Heure de début",
+      "needsPerson": "Choisir qui s'en occupe",
+      "guestRecord": "Client de passage",
+      "guestButton": "Client de passage, sans fiche client",
+      "guestLabel": "Client de passage",
+      "guestHint": "Le RDV est enregistré, mais la personne n'est pas ajoutée à vos clients.",
+      "guestName": "Prénom (facultatif, pour ce RDV uniquement)",
+      "useGuest": "Continuer sans fiche client",
+      "back": "Retour",
+      "saveAsClient": "Enregistrer comme client",
+      "saveHint": "Il souhaite revenir ? Ajoutez-le à vos clients ; ce RDV sera rattaché à sa fiche.",
+      "name": "Nom",
+      "phone": "Téléphone",
+      "email": "E-mail (facultatif)"
+    },
+    "chairs": {
+      "title": "Fauteuils et cabines",
+      "hint": "Les postes partagés (bacs à shampoing, fauteuils de pédicure) sont réservés par prestation pour éviter que deux personnes n'en aient besoin en même temps.",
+      "add": "Ajouter un fauteuil ou un poste",
+      "name": "Nom",
+      "kind": "Type",
+      "kinds": {
+        "styling": "Fauteuil de coiffure",
+        "basin": "Bac à shampoing",
+        "nail": "Table de manucure",
+        "pedicure": "Fauteuil de pédicure",
+        "room": "Cabine"
+      },
+      "shared": "Poste partagé",
+      "renter": "Loué à",
+      "nobody": "Personne",
+      "rent": "Loyer mensuel",
+      "none": "Aucun fauteuil pour le moment.",
+      "kindHint": "Choisissez un type ou saisissez le vôtre, ex. : Table de massage ou Cabine laser. Les prestations qui en ont besoin pourront alors l'utiliser.",
+      "sectionName": "Nom de cette section",
+      "sectionNameHint": "Utilisez le terme de votre établissement : Postes, Cabines, Salles… Laissez vide pour garder le nom par défaut.",
+      "sectionNameLabel": "Nom de la section"
+    },
+    "messages": {
+      "title": "{count, plural, one {# e-mail envoyé} other {# e-mails envoyés}}",
+      "failed": "Échec",
+      "templates": {
+        "confirmed": "RDV confirmé",
+        "requested": "Demande de RDV reçue",
+        "approved": "RDV validé",
+        "declined": "RDV refusé",
+        "cancelled_by_client": "Annulation confirmée",
+        "moved": "RDV déplacé",
+        "rescheduled": "RDV modifié",
+        "welcome": "Bienvenue"
+      }
+    }
+  }
+}

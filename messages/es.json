@@ -1,0 +1,648 @@
+{
+  "common": {
+    "back": "Atrás",
+    "next": "Continuar",
+    "save": "Guardar",
+    "saved": "Guardado",
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "add": "Añadir",
+    "search": "Buscar",
+    "loading": "Cargando…",
+    "yes": "Sí",
+    "no": "No",
+    "minutes": "{min} min",
+    "language": "Idioma",
+    "error": "Algo ha fallado. Inténtalo de nuevo.",
+    "notAllowed": "No tienes acceso a esta página.",
+    "signOut": "Cerrar sesión",
+    "today": "Hoy",
+    "tomorrow": "Mañana",
+    "optional": "opcional",
+    "everyDay": "Todos los días",
+    "daysCount": "{count, plural, one {# día} other {# días}}"
+  },
+  "status": {
+    "pending": "Pendiente de aprobar",
+    "confirmed": "Confirmada",
+    "completed": "Hecha",
+    "cancelled": "Cancelada",
+    "declined": "Rechazada",
+    "no_show": "No vino"
+  },
+  "book": {
+    "title": "Reservar cita",
+    "chooseServices": "¿Qué te gustaría?",
+    "selected": "{count, plural, one {# servicio} other {# servicios}} · {duration} min · {price}",
+    "chooseStaff": "¿Con quién?",
+    "anyone": "Cualquiera disponible",
+    "anyoneHint": "Buscamos la primera persona libre",
+    "chooseTime": "Elige día y hora",
+    "otherDay": "Otro día",
+    "noSlots": "No hay horas libres este día. Prueba otro día.",
+    "morning": "Mañana",
+    "afternoon": "Tarde",
+    "evening": "Noche",
+    "with": "con {name}",
+    "signInTitle": "Inicia sesión para confirmar",
+    "signInWhy": "Todo el mundo inicia sesión una vez para que solo reserven personas reales. La próxima vez es un toque.",
+    "signIn": "Iniciar sesión",
+    "signedInAs": "Sesión iniciada como {email}",
+    "notYou": "¿No eres tú?",
+    "yourDetails": "Tus datos",
+    "name": "Tu nombre",
+    "phone": "Móvil",
+    "phoneHint": "Para que {salon} pueda avisarte si algo cambia",
+    "forSomeoneElse": "Reservo para otra persona",
+    "theirName": "Su nombre",
+    "notes": "¿Algo que {salon} deba saber?",
+    "confirm": "Confirmar reserva",
+    "request": "Enviar solicitud",
+    "requestHint": "{salon} confirma a los clientes nuevos por email.",
+    "doneTitle": "¡Reserva confirmada!",
+    "doneRequestTitle": "Solicitud enviada",
+    "doneBody": "Te hemos enviado los detalles a {email}.",
+    "doneRequestBody": "{salon} la confirmará en breve. Te escribiremos a {email}.",
+    "manage": "Ver o cancelar",
+    "bookAnother": "Reservar otra",
+    "closed": "La reserva online aún no está abierta.",
+    "errors": {
+      "slot_unavailable": "Lo sentimos, alguien acaba de reservar esa hora. Elige otra.",
+      "blocked": "La reserva online no está disponible para tu cuenta. Llama a {salon}.",
+      "too_many_bookings": "Ya tienes reservas pendientes. Llama a {salon} para reservar más.",
+      "not_set_up": "La reserva online aún no está abierta.",
+      "bot": "Completa la verificación de arriba.",
+      "sign_in": "Primero inicia sesión.",
+      "invalid": "Revisa los datos e inténtalo de nuevo.",
+      "outside_hours": "Está fuera del horario. Elige otra hora."
+    },
+    "otherServices": "Otros",
+    "personalPercent": "−{pct}%",
+    "addCalendar": "Añadir a mi calendario",
+    "addGoogle": "Google Calendar",
+    "calendarHint": "Tu móvil te lo recordará el día antes.",
+    "questions": {
+      "intro": "Dos preguntas rápidas, ambas opcionales. Nos ayudan a conocerte.",
+      "heard": "¿Cómo nos conociste?",
+      "who": "¿Quién te nos recomendó?",
+      "city": "¿Dónde vives?"
+    },
+    "metaTitle": "{salon} · Reserva online",
+    "metaDescription": "Reserva tu cita en {salon} online en un minuto. {address}",
+    "info": {
+      "hours": "Horario",
+      "call": "Llamar"
+    },
+    "recommended": "Horas recomendadas",
+    "allTimes": "Todas las horas",
+    "byService": "Por servicio",
+    "byPro": "Por profesional",
+    "choosePro": "¿Con quién quieres tu cita?",
+    "withPro": "Con",
+    "changePro": "Cambiar",
+    "bookAgain": "Reservar de nuevo",
+    "nextFree": "Próxima hora libre: {day}, {time}",
+    "summary": {
+      "when": "Cuándo",
+      "price": "Precio",
+      "where": "Dónde",
+      "cancel": "Puedes cancelar o cambiar gratis hasta {hours, plural, one {# hora} other {# horas}} antes.",
+      "cancelAny": "Puedes cancelar o cambiar cuando quieras antes de tu visita."
+    },
+    "consent": {
+      "title": "Prueba de alergia",
+      "text": "Confirmo que me he hecho una prueba de alergia con estos productos en los últimos 6 meses, o que vendré a hacérmela al menos 48 horas antes, y avisaré a {salon} de cualquier alergia o reacción."
+    },
+    "paused": "La reserva online no está disponible ahora mismo. Contacta directamente con {salon}.",
+    "onlyUntil": "De momento puedes reservar online hasta el {date}. Para fechas posteriores, contacta con {salon}.",
+    "pausedCall": "Llamar al {phone}"
+  },
+  "signin": {
+    "title": "Iniciar sesión",
+    "subtitle": "para reservar y gestionar tus citas",
+    "google": "Continuar con Google",
+    "microsoft": "Continuar con Microsoft",
+    "or": "o",
+    "email": "Email",
+    "sendLink": "Envíame un enlace de acceso",
+    "linkSent": "Revisa tu email",
+    "linkSentBody": "Hemos enviado un enlace a {email}. Ábrelo en este dispositivo.",
+    "done": "Sesión iniciada. Ya puedes cerrar esta ventana.",
+    "staffHint": "Equipo: entra con el email con el que te añadieron.",
+    "staffSubtitle": "a la app del equipo",
+    "password": "Contraseña",
+    "signInButton": "Entrar",
+    "wrongPassword": "Email o contraseña incorrectos.",
+    "usePassword": "Entrar con tu contraseña",
+    "useLink": "Recibir un enlace por email",
+    "socialFailed": "No se ha podido entrar así. Inténtalo otra vez o pide un enlace de acceso por email.",
+    "staffSubtitleName": "en {salon}",
+    "staffHintName": "Equipo: entra con el email con el que te añadió {salon}."
+  },
+  "manage": {
+    "title": "Tu cita",
+    "cancel": "Cancelar cita",
+    "cancelConfirm": "¿Cancelar esta cita?",
+    "cancelled": "Tu cita se ha cancelado.",
+    "tooLate": "Faltan menos de {hours} horas para tu cita, así que llama a {salon} para cancelar.",
+    "bookAgain": "Reservar de nuevo",
+    "notFound": "No hemos encontrado esta cita.",
+    "call": "Llamar a {salon}",
+    "change": "Cambiar día u hora",
+    "changeTitle": "Elige otra hora",
+    "samePerson": "Con {name}",
+    "anyone": "Cualquier profesional",
+    "confirmChange": "Cambiar a esta hora",
+    "changed": "¡Hecho! Tu cita ha cambiado. Te enviamos los detalles por email.",
+    "back": "Volver a mi cita",
+    "staffOff": "Lo sentimos, {name} no podrá atenderte ese día. Elige otra hora o cancela sin problema."
+  },
+  "heard": {
+    "recommended": "Me lo recomendó alguien",
+    "social": "Instagram / redes sociales",
+    "google": "Google / Maps",
+    "walkby": "Pasaba por delante",
+    "other": "Otro",
+    "question": "Nos conoció por",
+    "who": "Recomendado por",
+    "whoHint": "Si se lo recomendó alguien.",
+    "city": "Ciudad o pueblo",
+    "cityHint": "Dónde vive: distingue locales de visitantes.",
+    "summary": "De dónde vienen los clientes nuevos · últimos 90 días ({count})",
+    "unknown": "No lo dijo",
+    "towns": "Dónde viven",
+    "guests": "{count, plural, one {# visita} other {# visitas}} sin ficha de cliente (no están en la lista)",
+    "settingsTitle": "Preguntas para clientes nuevos",
+    "settingsHint": "Se preguntan una vez, en la primera reserva online. Responder siempre es opcional. Verás las respuestas en cada cliente y un resumen en Clientes.",
+    "askHeard": "Preguntar \"¿Cómo nos conociste?\"",
+    "askHint": "El enlace de invitación de un amigo lo responde por ellos.",
+    "answers": "Respuestas para elegir",
+    "ownAnswers": "Tus propias respuestas",
+    "ownAnswersHint": "Separadas por comas, p. ej. Folleto, Radio local. En el idioma para clientes.",
+    "askCity": "Preguntar \"¿Dónde vives?\"",
+    "askCityHint": "Muestra cuántos clientes son locales y cuántos visitantes."
+  },
+  "recovery": {
+    "signInLink": "¿Eres el propietario y has perdido el acceso a tu email?",
+    "title": "¿Has perdido el acceso a tu email?",
+    "intro": "Si eres el propietario y añadiste un segundo email, le enviaremos un enlace que traslada tu acceso a ese email.",
+    "email": "Tu segundo email",
+    "emailHint": "El que añadiste en Más › Acceso y seguridad.",
+    "send": "Envíame el enlace",
+    "errorEmail": "Revisa el email.",
+    "sentTitle": "Mira esa bandeja de entrada",
+    "sentHint": "Si es el segundo email del propietario, el enlace ya va de camino. Funciona durante 30 minutos; mira también en spam.",
+    "noSecond": "¿No tienes segundo email o también lo has perdido? Escríbenos y te ayudamos después de comprobar que eres tú.",
+    "confirmTitle": "Confirma tu segundo email",
+    "confirmIntro": "Usa {email} para volver a entrar en {salon} si alguna vez pierdes tu email principal.",
+    "confirmButton": "Confirmar",
+    "confirmed": "Hecho. Este email ya puede devolverte el acceso.",
+    "moveTitle": "Entra con este email a partir de ahora",
+    "moveIntro": "El acceso del propietario de {salon} pasa a {email}. Se cierra la sesión del email anterior y se le avisa.",
+    "moveButton": "Trasladar mi acceso y abrir la app",
+    "expired": "Este enlace ha caducado o ya se usó. Pide uno nuevo."
+  },
+  "site": {
+    "skip": "Saltar al contenido",
+    "book": "Reservar cita",
+    "bookWith": "Reservar con {name}",
+    "call": "Llamar",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "directions": "Cómo llegar",
+    "offerAll": "Todos los servicios",
+    "offerUntil": "hasta el {date}",
+    "referral": "Recomiéndanos a un amigo: tendrá un {pct}% de descuento en su primera visita.",
+    "services": "Servicios y precios",
+    "otherServices": "Otros servicios",
+    "count": "{n, plural, one {# servicio} other {# servicios}}",
+    "from": "desde {price}",
+    "minutes": "{min} min",
+    "hoursOnly": "{h} h",
+    "hoursMinutes": "{h} h {min} min",
+    "team": "Nuestro equipo",
+    "about": "Sobre nosotros",
+    "ratingOutOf": "Valoración de {rating} sobre 5",
+    "faq": "Preguntas",
+    "hours": "Horario",
+    "closedDays": "Próximos días cerrado",
+    "contact": "Contacto",
+    "taxId": "ID fiscal {id}",
+    "privacy": "Esta web no usa cookies de seguimiento ni de publicidad. Los datos que das al reservar los usa {salon} solo para gestionar tus citas.",
+    "badge": "Web por Statio CRM",
+    "madeBy": "creado por aioperants.com",
+    "gallery": "Nuestro trabajo",
+    "aboutMe": "Sobre mí",
+    "galleryMe": "Mi trabajo",
+    "weComeTo": "Vamos a tu casa · {area}",
+    "formTitle": "Escríbenos",
+    "formHint": "Para preguntas. Para reservar, usa Reservar cita: es más rápido.",
+    "formName": "Tu nombre",
+    "formContact": "Tu email o teléfono",
+    "formMessage": "Tu mensaje",
+    "formSend": "Enviar mensaje",
+    "formSent": "Gracias, tu mensaje se ha enviado. Te responderemos pronto.",
+    "formError": "No se pudo enviar tu mensaje. Llámanos o inténtalo más tarde.",
+    "formLimit": "Demasiados mensajes por ahora. Inténtalo más tarde o llámanos.",
+    "formPrivacy": "{salon} recibe tu mensaje solo para responderte, y se borra a los 90 días.",
+    "formPrivacyLink": "Privacidad",
+    "emailFrom": "Web de {salon}",
+    "emailSubject": "Nuevo mensaje desde tu web: {name}",
+    "emailIntro": "{name} ha enviado un mensaje desde la web de {salon}:",
+    "emailContact": "Contacto: {contact}",
+    "emailReply": "Responde a este email para contestarle.",
+    "emailCall": "Ha dejado un teléfono: llama o escríbele para contestarle.",
+    "bookThis": "Reservar esto",
+    "openPhoto": "Abrir foto",
+    "closePhoto": "Cerrar",
+    "moreOnInstagram": "Ver más en Instagram",
+    "openIn": "O ábrelo en",
+    "shopNote": "Resérvalo ahora y recógelo y págalo en tu próxima visita.",
+    "reserve": "Reservar",
+    "reserveSend": "Reservar para recoger",
+    "reserveOrBook": "¿Vas a pedir cita? Puedes añadirlo al reservar.",
+    "reserveSent": "Reservado. Te lo tendremos listo para recogerlo y pagarlo en el salón.",
+    "outOfStock": "Agotado",
+    "featured": "Destacados",
+    "menu": "Menú",
+    "menuClose": "Cerrar el menú",
+    "menuHours": "Horario y dirección",
+    "reviewReply": "Respuesta de {salon}:",
+    "referralFriend": "para tu amigo en su primera visita"
+  },
+  "emails": {
+    "details": "{services}\n{day}, {time} · {staff}\n{price}",
+    "manage": "Ver o cancelar: {link}",
+    "confirmed": {
+      "subject": "Reserva confirmada: {day} a las {time}",
+      "body": "Hola {name}, tu reserva en {salon} está confirmada."
+    },
+    "requested": {
+      "subject": "Solicitud recibida: {day} a las {time}",
+      "body": "Hola {name}, gracias por tu solicitud. {salon} te la confirmará en breve por email."
+    },
+    "approved": {
+      "subject": "Reserva confirmada: {day} a las {time}",
+      "body": "Buenas noticias {name}, {salon} ha confirmado tu reserva."
+    },
+    "declined": {
+      "subject": "Reserva no disponible: {day} a las {time}",
+      "body": "Hola {name}, lo sentimos, {salon} no puede aceptar esta reserva. Llámanos o elige otra hora."
+    },
+    "cancelled_by_salon": {
+      "subject": "Reserva cancelada: {day} a las {time}",
+      "body": "Hola {name}, {salon} ha tenido que cancelar tu reserva. Ponte en contacto para buscar otra hora."
+    },
+    "moved": {
+      "subject": "Reserva cambiada: {day} a las {time}",
+      "body": "Hola {name}, {salon} ha cambiado tu reserva. Estos son los nuevos detalles."
+    },
+    "owner_new": {
+      "subject": "Nueva cita: {name}, {day} {time}",
+      "body": "{name} ha reservado online."
+    },
+    "owner_request": {
+      "subject": "Pendiente de aprobar: {name}, {day} {time}",
+      "body": "{name} ha enviado una solicitud. Apruébala o recházala en la app: {admin}"
+    },
+    "owner_cancelled": {
+      "subject": "Cancelada: {name}, {day} {time}",
+      "body": "{name} ha cancelado online."
+    },
+    "comeback": {
+      "subject": "¿Reservamos tu próxima visita a {salon}?",
+      "body": "Hola {name}, ha pasado un tiempo desde tu última visita a {salon}. Reserva tu próxima cita cuando te venga bien: {link}"
+    },
+    "whatsappReminder": "¡Hola {name}! Te recordamos tu cita en {salon}: {day} a las {time} ({services}). ¡Te esperamos! Para cambiarla o cancelarla: {link}",
+    "whatsappComeBack": "¡Hola {name}! Somos {salon}. Ha pasado un tiempo desde tu última visita. ¿Te reservamos la próxima? Puedes elegir hora aquí: {link}",
+    "whatsappComeBackSoon": "¡Hola {name}! Somos {salon}. Ya casi toca tu próxima cita. ¿Te reservamos hueco? Elige hora aquí: {link}",
+    "rescheduled": {
+      "subject": "Reserva cambiada: {day} a las {time}",
+      "body": "Hola {name}, hemos cambiado tu reserva en {salon} como pediste. Estos son los nuevos detalles."
+    },
+    "owner_moved": {
+      "subject": "Cambio de hora: {name}, {day} {time}",
+      "body": "{name} ha cambiado su cita online. Nueva hora:"
+    },
+    "staffOff": {
+      "subject": "{staff} no puede venir: {days}",
+      "body": "{staff} ha avisado de que no puede venir: {days}.\n\n{count, plural, =0 {No tiene citas esos días.} one {Tiene # cita que hay que resolver (pasarla a otra persona, avisar al cliente o cancelar):} other {Tiene # citas que hay que resolver (pasarlas a otra persona, avisar a los clientes o cancelar):}}\n{link}"
+    },
+    "whatsappStaffOff": "¡Hola {name}! Somos {salon}. Lo sentimos, {staff} no podrá atenderte el {day} a las {time}. ¿Te viene bien otra hora? Elígela aquí: {link}",
+    "personalOffer": {
+      "subject": "Algo para tu próxima visita en {salon}",
+      "body": "Hola {name}, gracias por confiar en {salon}. Para tu próxima visita tenemos algo para ti: {what}. Válido hasta el {until}. Reserva aquí: {link}",
+      "percent": "un {pct}% de descuento",
+      "and": " y ",
+      "optOut": "¿No quieres recibir mensajes así? {link}"
+    },
+    "cancelled_by_client": {
+      "subject": "Reserva cancelada: {day} a las {time}",
+      "body": "Hola {name}, hemos cancelado tu reserva en {salon}, como pediste. Te esperamos cuando quieras."
+    },
+    "calendarLink": "Añadir a tu calendario: {link}",
+    "whatsappWelcome": "¡Hola {name}! Te damos la bienvenida a {salon}, nos alegra que hayas reservado con nosotros. Te esperamos el {day} a las {time} con {staff} ({services}). Para cambiarla o cancelarla: {link}",
+    "whatsappWelcomeVisit": "Te esperamos el {day} a las {time} con {staff} ({services}). Para cambiarla o cancelarla: {link}",
+    "whatsappBirthday": "¡Feliz cumpleaños, {name}! Todo el equipo de {salon} te desea un día estupendo. Date un capricho, nos encantará verte: {link}",
+    "staffInvite": {
+      "subject": "{salon}: tu acceso a la app",
+      "body": "Hola {name}:\n\n{salon} te ha invitado a la app del salón, para ver tu agenda y tus citas desde el móvil.\n\nTu enlace personal (válido {days} días): {link}"
+    },
+    "offerShare": "{salon}: −{pct}% {name}\n{when}, hasta el {until}.\nReserva aquí: {link}",
+    "offerShareEveryDay": "Todos los días",
+    "inviteLink": "¡Hola {name}! Recomienda {salon} a una amiga o amigo: tiene un {friendPct}% de descuento en su primera visita, y tú un {rewardPct}% en la siguiente cuando haya venido. Tu enlace personal para compartir: {link}",
+    "staffLink": "Reserva tu próxima cita con {name} en {salon}: {link}",
+    "recovery": {
+      "confirm": {
+        "subject": "Confirma tu segundo email para {salon}",
+        "body": "Hola:\n\nEl propietario de {salon} quiere usar este email para volver a entrar si pierde el principal. Para confirmarlo, abre este enlace (funciona durante {hours} horas):\n\n{link}\n\nSi no has sido tú, ignora este email: no cambia nada.\n\nStatio CRM"
+      },
+      "added": {
+        "subject": "Se ha añadido un segundo email a {salon}",
+        "body": "Hola:\n\n{email} ya puede devolverte el acceso a {salon} si pierdes este email.\n\nSi no has sido tú, entra ahora, ve a Más › Acceso y seguridad, quítalo y cierra la sesión en los demás dispositivos. Después escríbenos.\n\nStatio CRM"
+      },
+      "removed": {
+        "subject": "Se ha quitado el segundo email de {salon}",
+        "body": "Hola:\n\n{email} ya no sirve para volver a entrar en {salon}.\n\nSi no has sido tú, entra ahora, ve a Más › Acceso y seguridad y cierra la sesión en los demás dispositivos. Después escríbenos.\n\nStatio CRM"
+      },
+      "link": {
+        "subject": "Vuelve a entrar en {salon}",
+        "body": "Hola:\n\nHas pedido volver a entrar en {salon} con este email. Abre este enlace para trasladar tu acceso aquí (funciona durante {minutes} minutos):\n\n{link}\n\nSi no has sido tú, ignora este email: no cambia nada.\n\nStatio CRM"
+      },
+      "moved": {
+        "subject": "Tu acceso a {salon} ha cambiado de email",
+        "body": "Hola:\n\nEl acceso del propietario de {salon} ha pasado a {email}. Este email ya no puede entrar allí y sus sesiones se han cerrado.\n\nSi no has sido tú, escríbenos enseguida respondiendo a este email.\n\nStatio CRM"
+      },
+      "support": {
+        "subject": "Ya puedes entrar en {salon} con este email",
+        "body": "Hola:\n\nComo nos pediste, el acceso del propietario de {salon} es ahora este email. Abre tu página de acceso y pide un enlace. Después añade un segundo email en Más › Acceso y seguridad.\n\nStatio CRM"
+      }
+    },
+    "pickUp": "Para recoger en tu cita: {items} ({total}, pago al recoger).",
+    "greeting": "¡Hola, {name}!",
+    "welcomeDefault": "¡Te damos la bienvenida! Nos alegra que hayas reservado con nosotros.",
+    "whatsappFillGap": "¡Hola {name}! Somos {salon}. Tenemos un hueco libre {when} con {staff}. ¿Te viene bien? Resérvalo, u otra hora, aquí: {link}"
+  },
+  "siteDrafts": {
+    "kind": {
+      "barbershop": "una barbería",
+      "hair": "una peluquería",
+      "nails": "un salón de uñas",
+      "aesthetics": "un centro de estética",
+      "spa": "un spa",
+      "laser": "un centro de depilación láser"
+    },
+    "about": {
+      "town": "{name} es {kind} en {town}.",
+      "noTown": "{name} es {kind}.",
+      "since": "Abrimos en {year}.",
+      "known": "Se nos conoce por {known}.",
+      "love": "Lo que más valoran nuestros clientes: {love}.",
+      "end": "Reserva online cuando mejor te venga."
+    },
+    "faq": {
+      "book": {
+        "q": "¿Cómo reservo?",
+        "a": "Online, a cualquier hora: toca Reservar y elige el servicio y la hora que mejor te venga."
+      },
+      "cancel": {
+        "q": "¿Puedo cambiar o cancelar mi cita?",
+        "a": "Sí, hasta {hours} horas antes, con el enlace de tu email de confirmación."
+      },
+      "pay": {
+        "q": "¿Cómo puedo pagar?"
+      },
+      "parking": {
+        "q": "¿Hay aparcamiento cerca?"
+      },
+      "gift": {
+        "q": "¿Tenéis tarjetas regalo?"
+      },
+      "barbershop": [
+        {
+          "q": "¿Atendéis sin cita?"
+        },
+        {
+          "q": "¿Arregláis la barba?"
+        }
+      ],
+      "hair": [
+        {
+          "q": "¿Necesito una consulta antes de un color?"
+        },
+        {
+          "q": "¿Qué productos usáis?"
+        }
+      ],
+      "nails": [
+        {
+          "q": "¿Cuánto dura el esmalte semipermanente?"
+        },
+        {
+          "q": "¿Quitáis uñas hechas en otro sitio?"
+        }
+      ],
+      "aesthetics": [
+        {
+          "q": "¿Cómo me preparo para el tratamiento?"
+        },
+        {
+          "q": "¿El tratamiento duele?"
+        }
+      ],
+      "spa": [
+        {
+          "q": "¿Qué tengo que traer?"
+        },
+        {
+          "q": "¿Con cuánta antelación llego?"
+        }
+      ],
+      "laser": [
+        {
+          "q": "¿Cuántas sesiones necesitaré?"
+        },
+        {
+          "q": "¿Tengo que rasurarme antes de la sesión?"
+        },
+        {
+          "q": "¿Puedo tomar el sol antes o después?"
+        },
+        {
+          "q": "¿Sirve para mi tipo de piel y de vello?"
+        }
+      ]
+    }
+  },
+  "templates": {
+    "types": {
+      "hair": "Peluquería",
+      "barber": "Barbería",
+      "nails": "Salón de uñas",
+      "beauty": "Centro de estética",
+      "spa": "Spa y masajes",
+      "laser": "Depilación láser"
+    },
+    "typeHints": {
+      "hair": "Cortes, color, peinados",
+      "barber": "Cortes, degradados, barba, afeitado",
+      "nails": "Manicura, pedicura, nail art",
+      "beauty": "Faciales, depilación, pestañas y cejas",
+      "spa": "Masajes, faciales, tratamientos corporales",
+      "laser": "Zonas de cara, cuerpo y hombre, consulta"
+    },
+    "groups": {
+      "cuts": "Cortes",
+      "colour": "Color",
+      "styling": "Peinados",
+      "treatments": "Tratamientos",
+      "beard": "Barba",
+      "shave": "Afeitado",
+      "manicure": "Manicura",
+      "pedicure": "Pedicura",
+      "nailArt": "Nail art",
+      "face": "Facial",
+      "waxing": "Depilación",
+      "lashesBrows": "Pestañas y cejas",
+      "massage": "Masajes",
+      "body": "Corporal",
+      "consultation": "Consulta",
+      "men": "Hombre"
+    },
+    "services": {
+      "womensCut": "Corte y peinado mujer",
+      "mensCut": "Corte hombre",
+      "kidsCut": "Corte niño/a",
+      "rootColour": "Color raíz",
+      "highlights": "Mechas",
+      "blowDry": "Brushing",
+      "updo": "Recogido",
+      "hairTreatment": "Tratamiento capilar",
+      "haircut": "Corte",
+      "fade": "Degradado",
+      "beardTrim": "Arreglo de barba",
+      "cutAndBeard": "Corte y barba",
+      "hotTowelShave": "Afeitado con toalla caliente",
+      "classicManicure": "Manicura clásica",
+      "gelManicure": "Manicura semipermanente",
+      "acrylicSet": "Uñas acrílicas (completo)",
+      "infill": "Relleno",
+      "spaPedicure": "Pedicura spa",
+      "gelPedicure": "Pedicura semipermanente",
+      "nailArt": "Nail art (por juego)",
+      "facial": "Limpieza facial",
+      "browShape": "Diseño de cejas",
+      "lashLift": "Lifting de pestañas",
+      "legWax": "Depilación piernas completas",
+      "bikiniWax": "Depilación ingles",
+      "massage": "Masaje (60 min)",
+      "relaxMassage": "Masaje relajante",
+      "deepMassage": "Masaje descontracturante",
+      "hotStones": "Masaje con piedras calientes",
+      "bodyScrub": "Exfoliación corporal",
+      "laserConsultation": "Consulta y prueba",
+      "laserUpperLip": "Labio superior",
+      "laserFace": "Cara completa",
+      "laserUnderarms": "Axilas",
+      "laserBikini": "Ingles",
+      "laserFullBikini": "Ingles completas",
+      "laserArms": "Brazos completos",
+      "laserHalfLegs": "Medias piernas",
+      "laserFullLegs": "Piernas completas",
+      "laserBack": "Espalda",
+      "laserMenChestBack": "Pecho y espalda (hombre)"
+    },
+    "stations": {
+      "stylingChair": "Sillón",
+      "basin": "Lavacabezas",
+      "barberChair": "Sillón de barbero",
+      "nailDesk": "Mesa de uñas",
+      "pedicureChair": "Sillón de pedicura",
+      "treatmentRoom": "Cabina"
+    }
+  },
+  "contactCard": {
+    "meta": "Guarda {salon} en tu móvil y reserva tu próxima visita.",
+    "save": "Añadir a mis contactos",
+    "book": "Reservar cita",
+    "call": "Llamar",
+    "hint": "Al guardarnos se añaden a tus contactos nuestro teléfono, la dirección y el enlace para reservar."
+  },
+  "admin": {
+    "newBooking": {
+      "title": "Nueva cita",
+      "client": "Cliente",
+      "search": "Nombre, teléfono o email",
+      "newClient": "Añadir cliente nuevo",
+      "services": "Servicios",
+      "staff": "Con",
+      "day": "Día",
+      "time": "Hora",
+      "notify": "Enviar confirmación por email al cliente",
+      "save": "Reservar",
+      "noSlots": "No hay horas libres ese día",
+      "pickClient": "Elige primero un cliente",
+      "today": "Hoy",
+      "tomorrow": "Mañana"
+    },
+    "walkin": {
+      "button": "Sin cita",
+      "toggle": "Hora libre (sin cita o encajar)",
+      "hint": "Reserva exactamente esta hora, aunque sea fuera de horario o encima de otra cita.",
+      "time": "Hora de inicio",
+      "needsPerson": "Elige quién lo hará",
+      "guestRecord": "Invitado/a",
+      "guestButton": "Invitado/a, sin ficha de cliente",
+      "guestLabel": "Invitado/a",
+      "guestHint": "La visita queda registrada, pero no se añade a tus clientes.",
+      "guestName": "Nombre (opcional, solo para esta visita)",
+      "useGuest": "Seguir como invitado/a",
+      "back": "Atrás",
+      "saveAsClient": "Guardar como cliente",
+      "saveHint": "¿Quiere volver? Añádelo a tus clientes; esta visita pasa a su ficha.",
+      "name": "Nombre",
+      "phone": "Teléfono",
+      "email": "Email (opcional)"
+    },
+    "chairs": {
+      "title": "Sillones y cabinas",
+      "hint": "Los puestos compartidos (lavacabezas, sillones de pedicura) se reservan por servicio para que dos personas no reserven el mismo.",
+      "add": "Añadir sillón o puesto",
+      "name": "Nombre",
+      "kind": "Tipo",
+      "kinds": {
+        "styling": "Sillón de peinado",
+        "basin": "Lavacabezas",
+        "nail": "Mesa de uñas",
+        "pedicure": "Sillón de pedicura",
+        "room": "Cabina"
+      },
+      "shared": "Puesto compartido",
+      "renter": "Alquilado a",
+      "nobody": "Nadie",
+      "rent": "Alquiler mensual",
+      "none": "Aún no hay sillones.",
+      "kindHint": "Elige uno o escribe el tuyo, p. ej. Camilla de masaje o Cabina láser. Los servicios que lo necesiten podrán usarlo.",
+      "sectionName": "Nombre de esta sección",
+      "sectionNameHint": "Llámala como la llamen en tu negocio: Puestos, Cabinas, Salas… Déjalo vacío para usar el nombre por defecto.",
+      "sectionNameLabel": "Nombre de la sección"
+    },
+    "messages": {
+      "title": "{count, plural, one {# email enviado} other {# emails enviados}}",
+      "failed": "Falló",
+      "templates": {
+        "confirmed": "Reserva confirmada",
+        "requested": "Solicitud recibida",
+        "approved": "Reserva aprobada",
+        "declined": "Reserva rechazada",
+        "cancelled_by_salon": "Visita cancelada por el salón",
+        "cancelled_by_client": "Cancelación confirmada",
+        "moved": "Visita movida",
+        "rescheduled": "Visita cambiada",
+        "welcome": "Bienvenida"
+      }
+    }
+  }
+}

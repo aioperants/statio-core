@@ -1,0 +1,417 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-display: var(--font-fraunces), "Fraunces", Georgia, serif;
+  /* Neutral greys, so they sit with black and white and with any salon's colours. */
+  --color-ink: #171717;
+  --color-muted: #666666;
+  --color-line: #e8e8e8;
+  --color-canvas: var(--canvas, #fafafa);
+  --color-brand: var(--brand, #111111);
+  /* A light tint of the brand (a light grey in black and white). */
+  --color-brand-soft: color-mix(in srgb, var(--brand, #111111) 9%, white);
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+/* Room for the phone's home bar under the bottom tabs. */
+.pb-safe {
+  padding-bottom: max(env(safe-area-inset-bottom), 0.5rem);
+}
+
+@utility field {
+  @apply w-full rounded-xl border border-line bg-white px-3.5 py-3 text-base outline-none focus:border-brand focus:ring-2 focus:ring-brand/20;
+}
+
+@utility btn {
+  @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-[15px] font-semibold transition active:scale-[0.98] disabled:opacity-50;
+}
+@utility btn-primary {
+  @apply btn bg-brand text-white;
+}
+@utility btn-ghost {
+  @apply btn border border-line bg-white text-ink;
+}
+@utility btn-danger {
+  @apply btn border border-red-200 bg-white text-red-700;
+}
+@utility card {
+  @apply rounded-2xl border border-line bg-white;
+}
+@utility label {
+  @apply mb-1.5 block text-sm font-medium text-muted;
+}
+@utility chip {
+  @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-semibold;
+}
+
+/* ---------- Salon website (components/site): the look comes from the direction's variables (lib/site/theme.ts). ---------- */
+/* Lines inside the website take the direction's line colour; utilities (e.g. border-white) still win. */
+@layer base {
+  .site *,
+  .site *::before,
+  .site *::after {
+    border-color: var(--s-line);
+  }
+}
+/* In the components layer, so utilities on a single element (hidden, md:inline-flex…) still win. */
+@layer components {
+  .site {
+    background: var(--s-bg);
+    color: var(--s-text);
+    font-family: var(--s-body);
+  }
+  .site .s-h {
+    font-family: var(--s-display);
+    font-weight: var(--s-heading-weight);
+    letter-spacing: var(--s-heading-tracking);
+    text-transform: var(--s-heading-case);
+    line-height: 1.05;
+    text-wrap: balance;
+  }
+  .site .s-eyebrow {
+    color: var(--s-accent);
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: var(--s-eyebrow-case);
+    letter-spacing: var(--s-eyebrow-tracking);
+  }
+  /* The menu's links jump to sections under the sticky top bar; smoothly, unless motion is reduced. */
+  .site [id^="piece-"] {
+    scroll-margin-top: 4.5rem;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    html:has(.site) {
+      scroll-behavior: smooth;
+    }
+  }
+  .site .s-muted {
+    color: var(--s-muted);
+  }
+  .site .s-accent {
+    color: var(--s-accent);
+  }
+  .site .s-line {
+    border-color: var(--s-line);
+  }
+  .site .s-surface {
+    background: var(--s-surface);
+  }
+  .site .s-tint {
+    background: var(--s-tint);
+  }
+  /* The website's colour washed softly over the cover photo, so any photo matches the colour set. */
+  .site .s-photo-tint {
+    background: var(--s-button);
+    mix-blend-mode: soft-light;
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  /* The marquee top: the salon's services running slowly across. */
+  .site .s-marquee {
+    overflow: hidden;
+  }
+  /* The words run inside the page's column and fade in and out at its edges. */
+  .site .s-marquee-window {
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+    mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+  }
+  /* While the words move, screen readers still read each one once (hidden from sight only). */
+  .site .s-marquee-still {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+  .site .s-marquee-track {
+    display: flex;
+    width: max-content;
+    animation: s-marquee 40s linear infinite;
+  }
+  .site .s-marquee-list {
+    display: flex;
+    flex-shrink: 0;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .site .s-marquee-track {
+      display: none;
+    }
+    .site .s-marquee-window {
+      -webkit-mask-image: none;
+      mask-image: none;
+    }
+    .site .s-marquee-still {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      column-gap: 2.5rem;
+      row-gap: 0.25rem;
+      position: static;
+      width: auto;
+      height: auto;
+      overflow: visible;
+      clip-path: none;
+      white-space: normal;
+    }
+  }
+  .site .s-card {
+    background: var(--s-surface);
+    border: 1px solid var(--s-line);
+    border-radius: var(--s-radius);
+  }
+  .site .s-btn {
+    display: inline-flex;
+    min-height: 3rem;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--s-button-radius);
+    background: var(--s-button);
+    color: var(--s-button-text);
+    border: 1px solid var(--s-button-border);
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.15s;
+  }
+  .site .s-btn:active {
+    transform: scale(0.98);
+  }
+  .site .s-btn-ghost {
+    display: inline-flex;
+    min-height: 3rem;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--s-button-radius);
+    border: 1px solid var(--s-text);
+    color: var(--s-text);
+    font-weight: 600;
+  }
+  .site .s-link {
+    color: var(--s-accent);
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+  }
+  .site a:focus-visible,
+  .site summary:focus-visible {
+    outline: 3px solid var(--s-accent);
+    outline-offset: 3px;
+  }
+  .site .s-leader {
+    flex: 1;
+    border-bottom: 1px dotted var(--s-line);
+    margin: 0 0.5rem 0.35rem;
+    min-width: 1rem;
+  }
+  .site details > summary {
+    list-style: none;
+    cursor: pointer;
+  }
+  .site details > summary::-webkit-details-marker {
+    display: none;
+  }
+  .site details > summary .s-chevron {
+    transition: transform 0.2s;
+  }
+  .site details[open] > summary .s-chevron {
+    transform: rotate(45deg);
+  }
+}
+/* Services as tabs: the chosen group's list shows (browsers without :has() show them all). */
+@layer components {
+  .site .s-panel {
+    display: none;
+  }
+  .site .s-tab span {
+    display: inline-flex;
+    min-height: 2.75rem;
+    align-items: center;
+    padding: 0.5rem 1.1rem;
+    border: 1px solid var(--s-line);
+    border-radius: var(--s-button-radius);
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .site .s-tab input:checked + span {
+    background: var(--s-button);
+    color: var(--s-button-text);
+    border-color: var(--s-button-border);
+  }
+  .site .s-tab input:focus-visible + span {
+    outline: 3px solid var(--s-accent);
+    outline-offset: 3px;
+  }
+  /* "Our work" grid: a photo opened big, with plain links (no script). */
+  .site .s-lightbox {
+    display: none;
+  }
+  .site .s-lightbox:target {
+    position: fixed;
+    inset: 0;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: rgb(0 0 0 / 0.9);
+  }
+  /* Decoration in the brand colour as it is (gold stays gold): stars, icons, rules. Never text. */
+  .site .s-ornament {
+    color: var(--s-ornament);
+  }
+}
+@supports not selector(:has(*)) {
+  .site .s-panel {
+    display: block;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site * {
+    transition: none !important;
+  }
+}
+
+/*
+ * The app's look: white page, near-black ink, light greys, the system sans for text and headings,
+ * pill buttons, 1.5px lines. Used by setup (the salon website in its preview keeps its own look).
+ */
+.statio {
+  --color-ink: #0a0a0a;
+  --color-muted: #6a6a6a;
+  --color-line: #e5e5e5;
+  --color-canvas: #ffffff;
+  --color-brand: #0a0a0a;
+  --color-brand-soft: #f4f4f4;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-display: var(--font-sans);
+  background: #ffffff;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 17px;
+  line-height: 1.55;
+}
+.statio :is(h1, h2, h3, .font-display) {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+.statio h1 {
+  line-height: 1.1;
+}
+.statio :is(.btn-primary, .btn-ghost, .btn-danger) {
+  border-radius: 999px;
+  min-height: 46px;
+  padding-inline: 22px;
+}
+.statio .btn-primary {
+  background: var(--color-ink);
+  border: 1.5px solid var(--color-ink);
+  color: #ffffff;
+}
+.statio .btn-ghost {
+  border: 1.5px solid var(--color-ink);
+  background: #ffffff;
+}
+.statio .field {
+  border-radius: 12px;
+  border-width: 1.5px;
+  min-height: 46px;
+}
+.statio .card {
+  border-radius: 16px;
+  border-width: 1.5px;
+}
+
+/*
+ * The admin, tuned for daily work: a quiet grey canvas with white cards
+ * (lists and forms stand out from the page), 15px text on a computer, and the salon's own colour
+ * still used for the active tab when the owner picks "My website colours".
+ */
+.statio.admin {
+  --color-canvas: #f6f6f7;
+  --color-brand: var(--brand, #0a0a0a);
+  --color-brand-soft: color-mix(in srgb, var(--brand, #0a0a0a) 7%, white);
+  background: var(--color-canvas);
+  font-size: 16px;
+  line-height: 1.5;
+}
+@media (min-width: 768px) {
+  .statio.admin {
+    font-size: 15px;
+  }
+}
+.statio.admin :is(.btn-primary, .btn-ghost, .btn-danger) {
+  min-height: 42px;
+  font-size: 14px;
+}
+.statio.admin .btn-primary {
+  background: var(--color-brand);
+  border-color: var(--color-brand);
+}
+.statio.admin .card {
+  border-width: 1px;
+  border-radius: 14px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.03);
+}
+/* Keyboard focus on buttons and links; text fields show it with their own border (.field) or their box (focus-within). */
+.statio.admin :focus-visible:not(input, textarea, select) {
+  outline: 2px solid var(--color-ink);
+  outline-offset: 2px;
+}
+
+@keyframes s-marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/*
+ * The booking page in the website's look: the booking steps (written with the app's colours) take
+ * the website's palette and lettering, so buttons, choices and fields match it, light or dark.
+ */
+.site .site-book {
+  --color-ink: var(--s-text);
+  --color-muted: var(--s-muted);
+  --color-line: var(--s-line);
+  --color-canvas: var(--s-tint);
+  --color-brand: var(--s-button);
+  --color-brand-soft: color-mix(in srgb, var(--s-button) 12%, var(--s-surface));
+  --color-white: var(--s-surface);
+  --color-emerald-50: color-mix(in srgb, #10b981 14%, var(--s-surface));
+  --color-emerald-300: color-mix(in srgb, #10b981 45%, var(--s-surface));
+  --color-emerald-700: color-mix(in srgb, #047857 55%, var(--s-text));
+  --color-emerald-900: color-mix(in srgb, #064e3b 45%, var(--s-text));
+  --color-red-50: color-mix(in srgb, #ef4444 12%, var(--s-surface));
+  --color-red-700: color-mix(in srgb, #b91c1c 55%, var(--s-text));
+  --color-amber-50: color-mix(in srgb, #f59e0b 14%, var(--s-surface));
+  --font-sans: var(--s-body);
+  --font-display: var(--s-display);
+  color: var(--s-text);
+  font-family: var(--s-body);
+}
+/* On the palette's button colour, the palette's button text (light or dark). */
+.site .site-book :is(.btn-primary, .bg-brand.text-white) {
+  color: var(--s-button-text);
+}
+.site .site-book .bg-emerald-600 {
+  color: #ffffff;
+}

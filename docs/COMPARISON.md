@@ -10,6 +10,35 @@ use most, including where it falls short.
 Prices below are the published US list prices we could find in **October 2026**, before tax and card
 fees. They change often: please check each vendor's own pricing page before you decide.
 
+## The real problem: the client relationship breaks
+
+Most salons give excellent service and lose the client anyway. A hairdresser works from visit to
+visit: hands busy, phone ringing, no time to call back, no receptionist to pay. Nobody writes down
+who came, what was done, or when they should come back, so a good client quietly drifts to the
+salon that happened to answer the phone. Very few salons have a website of their own, and even
+fewer let clients book online.
+
+The fix isn't five more apps. It's one thing that does the receptionist's job:
+
+- **Clients book themselves, 24/7, from your own website.** No missed calls while you're cutting,
+  no phone tag, and no booking marketplace showing them your competitors.
+- **The client book fills itself.** Every booking adds the client, their visits, notes, allergies
+  and colour history, with no extra work at the chair.
+- **It tells you who should come back.** Each service has a "come back in" time; the app learns each
+  client's rhythm and lists who is due or overdue, with a WhatsApp message ready in one tap.
+- **Change it once, it's right everywhere.** New price, new hours, a new stylist: your website,
+  booking page, what Google sees and your emails update together. No copying between tools, and no
+  client booking a service you stopped offering.
+- **Found on Google and AI search.** Your name, hours, services and prices always match, because
+  they come from one place, and the website hands them to Google, Bing and AI assistants as
+  structured data automatically.
+- **One price, one login, your data together.** Nothing to connect, nothing breaking between tools,
+  and one download has everything.
+
+That's why the website, the booking page and the client book are one system here, not three tools
+glued together. Statio Core gives you all three for free. Hosted [Statio](https://statiocrm.com) adds
+reminders before each visit, reviews, offers and an online shop to the same system, and runs it for you.
+
 ## At a glance
 
 | | Statio Core | Booksy | Fresha | Vagaro | Square Appointments | GlossGenius | Mangomint | Salonist |
@@ -53,9 +82,28 @@ software, hosted and looked after by us:
 - **A website designed for your salon**, with your photos, colours and words.
 - **A person to ask** when you need help.
 
-One price for the whole team, no commission and no contract: **Starter $29, Pro $59, Ultra $99 a
-month**, 14 days free. Already running Statio Core? *More › Move to hosted Statio* brings everything
+One price for the whole team, no commission and no contract, 14 days free (see the plans below).
+Already running Statio Core? *More › Move to hosted Statio* brings everything
 across, and you can always come back.
+
+## Grow step by step: Core, Starter, Pro, Ultra
+
+Each step builds on what the one before collected, so you only pay for the next step when you're
+ready to use it.
+
+1. **Core (free, you run it): get booked and start knowing your clients.** Online booking on your
+   own website, and a client book that fills itself: who comes, how often, what they had, where
+   they heard about you and who recommended them, and which hours stay quiet.
+2. **Starter ($29 a month): the same, run for you.** No Vercel, database or updates to look after,
+   your own domain, and a person to ask. You keep collecting the same picture of your business.
+3. **Pro ($59 a month): act on what you've learned.** Data-driven decisions instead of guesses: who
+   to invite back and when, offers that fill your quiet hours, automatic reminders before every
+   visit, reviews, an online shop, and income and expenses side by side.
+4. **Ultra ($99 a month): a 24/7 assistant, and room to grow.** An AI assistant that answers
+   questions about your business and writes for you, any time, and several salons in one account,
+   each with its own address, hours and team (each extra salon is a small monthly add-on).
+
+Every plan has unlimited team members: one price for the whole team, no commission, no contract.
 
 ## When it isn't
 

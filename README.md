@@ -28,6 +28,13 @@ It's the same app, so everything you try there works here too.
 
 **New here?** Read the step-by-step [How-to guide](docs/GUIDE.md), written for salon owners.
 
+**Why all in one?** Salons give great service and still lose clients: the hairdresser is busy with
+hands in someone's hair, the phone rings, nobody tracks who should come back. Statio Core does the
+receptionist's job. Clients book themselves on your own website, every booking fills your client
+book, and the app tells you who is due back, with a WhatsApp message in one tap. Change a price,
+your hours or your team once and it's right everywhere, including what Google and AI assistants
+read. More in the [comparison](docs/COMPARISON.md#the-real-problem-the-client-relationship-breaks).
+
 ## What you need
 
 | | Cost |
